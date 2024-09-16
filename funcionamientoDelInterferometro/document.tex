@@ -2,6 +2,7 @@
 % - Expectativa vs mediciones
 
 \documentclass[a4paper, 12pt]{article}
+\usepackage{times}
 \usepackage[utf8]{inputenc}
 \usepackage[left=1cm, right=1cm, top=1cm, bottom=1cm]{geometry}
 \usepackage{indentfirst}
@@ -15,7 +16,7 @@
 \fancyhf{}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
-\fancyfoot[R]{pág. \thepage}
+\fancyfoot[R]{\textit{Gatica M. - Leg. 402006 - 2R1 pág. \thepage}}
 \setlength{\footskip}{20pt}
 
 %opening
@@ -62,8 +63,43 @@
 		${y_{RT}} = {y_1} + {y_2}$ \\
 		${y_{RT}} = 2A.sen(kx - \omega t)$ \\
 	\end{center}
-	
+
 	\subsection{Interferencia constructiva y destructiva}
+	
+	\textbf{Interferencia constructiva:}
+	
+	\indent Este fenómeno ocurre cuando las dos ondas están en fase, es decir, sus crestas y valles coinciden. Esto significa que las diferencias de longitud de los caminos recorridos por las ondas son múltiplos enteros de la longitud de onda $\lambda$. En el interferómetro, este caso genera franjas brillantes.
+	
+	\indent Matemáticamente, la interferencia constructiva existe cuando la diferencia de recorrido óptimo $\Delta L$ satisface:
+	
+	\begin{center}
+		$\Delta L = m . \lambda$ \\
+	\end{center}
+	
+	siendo:
+	\begin{itemize}
+		\item m: número entero.
+		\item $\lambda$: longitud de la luz de onda utilizada.
+		\item $\Delta L$: diferencia de recorrido entre los dos haces.
+	\end{itemize} 
+	
+	\textbf{Interferencia destructiva:}
+
+	\indent Este fenómeno ocurre cuando las ondas están en oposición de fase, digamos, la cresta de una onda coincide con el valle de la otra y viceversa. La diferencia de longitud de los caminos aquí es un múltiplo impar de la mitad de la longitud de onda $\lambda$/2. El resultado es una onda con amplitud mínima o nula, que genera franjas oscuras en el interferómetro.
+	
+	\indent La interferencia destructiva posee la siguiente condición:
+	
+	\begin{center}
+		$\Delta L = (m . {\frac{1}{2}}) . \lambda$
+	\end{center}
+	
+	siendo:
+	\begin{itemize}
+		\item m: número entero.
+		\item $\lambda$: longitud de la luz de onda utilizada.
+		\item $\Delta L$: diferencia de recorrido entre los dos haces.
+	\end{itemize} 
+	
 	
 	\section{\textbf{El interferómetro}}
 
@@ -111,8 +147,11 @@
 	\subsection{Funcionamiento}
 		\begin{enumerate}
 			\item \textbf{División del haz de luz:} Un haz de luz coherente, como un láser, es dividido en dos haces por un divisor.
+			
 			\item \textbf{Reflexión en los espejos:} Los dos haces reflejados viajan por caminos diferentes (espejos y divisor de haz) y luego se recombinan en el divisor de haz.
-			\item \textbf{Superposición e interferencia:} Los dos haces se superponen y crean un patrón de interferencia en una pantalla o detector. La diferencia en las distancias recorridas por los haces causa una variación en el patrón de interferencia.
+			
+			\item \textbf{Superposición e interferencia:} Los dos haces se superponen y crean un patrón de interferencia en una pantalla o detector. La diferencia en las distancias recorridas por los haces causa una variación en el patrón de interferencia: \textbf{constructivo} si la fase es múltiplo entero de $\lambda$ o cero; \textbf{destructivo} si la diferencia de fase es múltiplo impar de $\lambda$/2.
+			
 			\item \textbf{Detección de desplazamientos:} Si uno de los espejos se mueve, cambiará la diferencia en las longitudes de los caminos ($\Delta L$), lo que hará variar el número de franjas de interferencia observadas. 
 		\end{enumerate}
 		
@@ -126,4 +165,86 @@
 			$N = 4$ \\
 		\end{center}
 		Esto da a entender que veremos 4 franjas de interferencia moviéndose en respuesta a un cambio de 1 micrómetro en la longitud del camino.
+		
+		\section{\textbf{El experimento de Michelson y Morley}}
+		
+		\indent El experimento de Michelson y Morley fue un caso de aplicación original del interferómetro desarrollado por uno de los autores. Fue esencial para el desarrollo de la teoría de la relatividad espacial de Einstein.
+		
+		\begin{figure}[h!]
+			\centering
+			\includegraphics[width=0.189216\textwidth]{./imágenes/experimentoMM.png}
+			\caption{Descripción del concepto "éter".}
+			\label{fig:experimentoMM}
+		\end{figure}
+		\
+		\subsection{Contexto histórico y objetivo del experimento}
+		\indent Antes de la formulación de la teoría espacial de la relatividad, los científicos creían que las ondas de luz requerían un medio de propagación, similar a las ondas mecánicas (ejemplo: ondas de sonido -> aire). Este supuesto medio lo llamaron \textbf{"éter luminífero"} y estaría presente en todo el espacio, siendo el marco de referencia para la propagación de ondas lumínicas. \newline
+		\indent El objetivo del experimento era determinar la velocidad de la Tierra con respecto al éter, observando los cambios de la velocidad de la luz cuando el interferómetro de Michelson era girado en diferentes direcciones con respecto al movimiento de la Tierra. Si el planeta se movía a través del éter, se debería apreciar los cambios en la rapidez de la luz en diferentes direcciones.
+		
+		\subsection{Funcionamiento del experimento}
+		\indent El interferómetro de Michelson dividía un haz de luz en dos, enviando las dos partes a través de trayectorias perpendiculares entre sí. Estas trayectorias recorrían distancias diferentes, lo que podía resultar en patrones de interferencia si había cambios en la velocidad de la luz a lo largo de cada trayectoria.
+		\begin{itemize}
+			\item \textbf{Hipótesis:} Si la Tierra se movía a través del éter, la velocidad de la luz sería diferente dependiendo de la orientación del interferómetro con respecto al movimiento del planeta. Al rotar el instrumento, los científicos esperaban observar un desplazamiento en las franjas de interferencia de $\sim$ 0,4 de una franja completa.
+		\end{itemize}
+		
+		\subsection{Resultados}
+		\indent El experimento pudo concluir en que no había desplazamiento apreciable de las franjas de interferencia, siendo menos de una centésima de franja y dentro de los límites de la incertidumbre experimental, pareciendo igual a cero. Se concluyó que no se podía detectar el movimiento de la Tierra a través del éter.
+		\indent Los científicos dudaron en por qué no había un efecto en la velocidad de la luz siendo que la Tierra se movía a través del éter.
+		
+		\subsection{Idea clave del experimento}
+		\indent La idea central es que si la luz viaja en la dirección del movimiento de la Tierra (trayectoria paralela), su velocidad relativa al observador en el planeta debería ser distinta que si viaja en dirección perpendicular. \newline
+		\indent Este efecto debía causar un desfase entre los dos haces de luz en las trayectorias perpendiculares, lo que se vería como un cambio en las franjas de interferencia.\newline
+		
+		\textbf{Derivación del tiempo de viaje de la luz} \newline
+		\indent Supongamos que el interferómetro tiene un brazo de longitud $L$, la Tierra se mueve por el éter con una velocidad $v$, y la velocidad de la luz en el vacío es $c$. \newline
+		\indent Para el brazo del interferómetro alineado en la dirección del movimiento de la Tierra, el tiempo total en ir ($c-v$) y volver ($c+v$) sería:
+		
+		\begin{center}
+			${t_{||}} = {\frac{L}{c-v}} + {\frac{L}{c+v}}$ \\ \
+			\newline
+			${t_{||}} = \frac{L(c+v) + L(c-v)}{(c-v)(c+v)}$ \\ \
+			\newline
+			${t_{||}} = \frac{cL + vL + cL - vL}{c^2 - v^2}$ \\ \
+			\newline
+			${t_{||}} = \frac{2cL}{c^2 - v^2}$ \\ \
+			\newline
+			${t_{||}} = \frac{2cL} {c^2(1 - (\frac{v}{c})^2)}$ \\ \
+			\newline
+			${t_{||}} = {\frac{2L}{c}} . \frac {1}{1- (\frac{v}{c})^2}$ \\ \
+		\end{center}
+		\newpage
+		\indent Para velocidades pequeñas, como en este caso $v$ con respecto a $c$, se puede aproximar a:
+		
+		\begin{center}
+			${t_{||}} \approx {\frac{2L}{c}} (1 + \frac{v^2}{c^2})$
+		\end{center}
+		
+		\indent En la dirección perpendicular, el tiempo de viaje es diferente:
+		\begin{figure}[h!]
+			\centering
+			\includegraphics[width=0.15\textwidth]{./imágenes/dibujoExperimentoMM.png}
+			
+			
+		\end{figure}
+		\begin{center}
+			$t_{\perp} = \frac{2L}{\sqrt{c^2 - v^2}} = {\frac{2L}{c}} \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$  
+		\end{center}
+		
+		\indent Como en el caso anterior, se puede hacer una aproximación dado a que $v << c$:
+		
+		\begin{center}
+			${t_{\perp}} \approx {\frac{2L}{c}} (1 + \frac{v^2}{2c^2})$
+		\end{center}
+		
+		\textbf{Diferencia de tiempos}
+		
+		\begin{center}
+			$\Delta t = {t_{||}} - {t_{\perp}} = {\frac{2L}{c}} {\frac{v^2}{c^2}}$
+		\end{center}
+		
+		\indent Este desfase era lo que Michelson y Morley esperaban ver cuando giraban el interferómetro 90º, ya que al hacerlo, la diferencia en las trayectorias debería cambiar y causar un desplazamiento en las franjas de interferencia.
+		
+		\subsection{Impacto en la física moderna}
+		\indent En 1905 Einstein postula la teoría de la relatividad espacial, donde establece que la velocidad de la luz en el vacío es constante en todos los marcos de referencia inerciales, e independientemente de la velocidad relativa entre ellos. \newline
+		\indent Con ello, se eliminaba la necesidad de un medio como el éter para la propagación de la luz.
 \end{document}
