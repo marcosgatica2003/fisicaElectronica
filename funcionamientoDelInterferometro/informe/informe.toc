@@ -1,0 +1,16 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}CONCEPTOS PREVIOS}{1}{}%
+\contentsline {subsection}{\numberline {1.1}La interferencia}{1}{}%
+\contentsline {subsection}{\numberline {1.2}El principio de superposición}{1}{}%
+\contentsline {subsection}{\numberline {1.3}Interferencia constructiva y destructiva}{1}{}%
+\contentsline {section}{\numberline {2}EL INTERFERÓMETRO}{1}{}%
+\contentsline {section}{\numberline {3}PRINCIPIO DE FUNCIONAMIENTO}{1}{}%
+\contentsline {section}{\numberline {4}EL INTERFERÓMETRO DE MICHELSON:}{1}{}%
+\contentsline {subsection}{\numberline {4.1}Matemática: Fórmula de interferencia de Michelson}{1}{}%
+\contentsline {subsection}{\numberline {4.2}Funcionamiento}{2}{}%
+\contentsline {section}{\numberline {5}\textbf {El experimento de Michelson y Morley}}{2}{}%
+\contentsline {subsection}{\numberline {5.1}Contexto histórico y objetivo del experimento}{2}{}%
+\contentsline {subsection}{\numberline {5.2}Funcionamiento del experimento}{2}{}%
+\contentsline {subsection}{\numberline {5.3}Resultados}{2}{}%
+\contentsline {subsection}{\numberline {5.4}Idea clave del experimento}{2}{}%
+\contentsline {subsection}{\numberline {5.5}Impacto en la física moderna}{3}{}%
