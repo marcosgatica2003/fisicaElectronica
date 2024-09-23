@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.9.21)  21 SEP 2024 22:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.9.21)  23 SEP 2024 07:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -785,10 +785,10 @@ LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 ) ) 
 Here is how much of TeX's memory you used:
- 15341 strings out of 477989
- 303598 string characters out of 5839005
+ 15340 strings out of 477989
+ 303588 string characters out of 5839005
  1880330 words of memory out of 5000000
- 35206 multiletter control sequences out of 15000+600000
+ 35205 multiletter control sequences out of 15000+600000
  530437 words of font info for 65 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
  102i,11n,104p,450b,630s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -806,7 +806,7 @@ sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
 times/utmri8a.pfb>
-Output written on informe.pdf (6 pages, 329440 bytes).
+Output written on informe.pdf (6 pages, 329841 bytes).
 PDF statistics:
  106 PDF objects out of 1000 (max. 8388607)
  61 compressed objects within 1 object stream

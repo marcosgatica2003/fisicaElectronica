@@ -8,7 +8,7 @@
 \contentsline {section}{\numberline {4}EL INTERFERÓMETRO DE MICHELSON:}{1}{}%
 \contentsline {subsection}{\numberline {4.1}Matemática: Fórmula de interferencia de Michelson}{1}{}%
 \contentsline {subsection}{\numberline {4.2}Funcionamiento}{2}{}%
-\contentsline {section}{\numberline {5}\textbf {El experimento de Michelson y Morley}}{2}{}%
+\contentsline {section}{\numberline {5}EXPERIMENTO MICHELSON Y MORLEY}{2}{}%
 \contentsline {subsection}{\numberline {5.1}Contexto histórico y objetivo del experimento}{2}{}%
 \contentsline {subsection}{\numberline {5.2}Funcionamiento del experimento}{2}{}%
 \contentsline {subsection}{\numberline {5.3}Resultados}{2}{}%
