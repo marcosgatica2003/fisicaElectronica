@@ -10,6 +10,8 @@
 \usepackage{amsmath}
 \usepackage[spanish]{babel}
 \usepackage[utf8]{inputenc}
+\usepackage{titlesec}
+\usepackage{booktabs}
 
 \author{}
 \date{}
@@ -52,6 +54,8 @@
 \fancyfoot[R]{\textit{Gatica M. - Leg. 402006 - 2R1 pág. \thepage}}
 \setlength{\footskip}{0pt}
 
+\titleformat{\section} {\fontsize{12}{12}\bfseries}{\thesection.}{0.5em}{\underline}
+
 \newpage
 \newpage
 
@@ -82,15 +86,176 @@
         \end{tikzpicture}
     \vspace{4.8cm}
     \subsection{Experimento y objetivos}
-        El objetivo de este desarrollo de laboratorio es determinar la radiación térmica que emanan los siguientes materiales:
+        \indent El objetivo de este desarrollo de laboratorio es determinar la radiación térmica que emanan los siguientes materiales: \\
         \begin{itemize}
             \setlength{\itemsep}{0pt}
             \item Plomo 
             \item Aluminio anodizado
-            \item Bronce
+            \item Aluminio
             \item Cobre 
             \item Chapa negra
         \end{itemize}
+        
+        \indent Complementario a esto, se tomará uno de los elementos seleccionados de la lista anterior para medir la radiación a cierta distancia del mismo con el fin de evaluar cómo el entorno del laboratorio influye en las mediciones de radiación. \\
+
+     \section{REQUERIMIENTOS}
+        El desarrollo del trabajo en el laboratorio requirió de los siguientes elementos:
+        \subsection{El cubo de Leslie}
+            \indent El cubo de Leslie permite medir y/o mostrar la energía radiada por diversos materiales en contacto con el dispositivo. \\
+            \indent La electrónica asociada del dispositivo empleado (con trasmisores LM-335, transductores pasivos y activos) permite obtener una sensibilidad de \textit{10mV x 1\textdegree K} \\
+            %IMAGEN DEL APARATO
+            \indent \textit{Nota: debido a un desperfecto en el instrumento, se optó por medir la temperatura de los materiales de otra forma. Naturalmente el dispositivo tiene una salida para leer los mV de la relación anteriormente mencionada.}
+        \subsection{Sensor de radiación Pasco}
+            \indent Este sensor lee la radiación térmica emitida por un cuerpo y devuelve un valor en mV en relación a la cantidad de mW detectados (\textit{22mV x mW}). \\
+            \begin{tikzpicture}[remember picture, overlay]
+                \node at (4.75cm, -3.25cm) {
+                    \begin{minipage}[c]{3cm}
+                        \includegraphics[width = 3.5cm]{./sensorPasco.png}
+                    \end{minipage}};
+            \end{tikzpicture}
+            \vspace{6.5cm}
+
+        \subsection{Multímetros}
+            \indent El experimento requirió de dos multímetros: uno como solución al problema del cubo de Leslie, con el cual se realizaron las mediciones de temperatura a la placa en grados Celsius usando sondas; y el restante para medir los mV del sensor Pasco.
+            \begin{tikzpicture}[remember picture, overlay]
+                \node at (-4.5cm, -3cm) {
+                    \begin{minipage}[c]{3cm}
+                        \includegraphics[width = 4cm]{./multimetro.png}
+                    \end{minipage}};
+            \end{tikzpicture}
+            \vspace{5cm}
+    \section{PROCEDIMIENTO}
+        \subsection{Medición de radiación de materiales}
+
+        \indent Se colocó la placa del material en cuestión sobre la superficie del cubo de Leslie con el fin de que esta se calentase. La siguiente tabla muestra la serie de mediciones realizadas, donde se tomaron muestras hasta una temperatura de equilibrio (donde la placa no subía más de temperatura en contacto con el cubo de Leslie):
+
+    \newpage
+    \thispagestyle{fancy}
+    \begin{minipage}[c]{12cm}
+        \begin{itemize}
+            \item \textbf{Aluminio} 
+       \end{itemize}
+   \end{minipage}
+   \vspace{-5mm}
+   \begin{tabular}{ c  c  c }
+     \toprule
+     N \textdegree & Sensor Pasco (mV) & Temperatura (\textdegree C) \\ \hline
+     \midrule
+          1   &   1,4     &   51,7 \\ \hline
+          2   &   1,4     &   50,8 \\ \hline
+          3   &   1,3     &   49,6 \\ \hline
+          4   &   1,3     &   48,6 \\ \hline
+          5   &   1,2     &   47,6 \\ \hline
+          6   &   1,1     &   46,6 \\ \hline
+          7   &   1,0     &   45,6 \\ \hline
+          8   &   1,0     &   44,6 \\ \hline
+          9   &   0,9     &   43,6 \\ \hline
+          10  &   0,8     &   42,6 \\ \hline
+          11  &   0,8     &   41,6 \\ \hline
+          12  &   0,7     &   40,6 \\ \hline
+          13  &   0,6     &   39,6 \\ \hline
+          14  &   0,6     &   38,6 \\ \hline
+          15  &   0,5     &   37,6 \\ \hline
+          16  &   0,4     &   36,4 \\ \hline
+      \bottomrule
+    \end{tabular}
+
+    \begin{itemize}
+       \item \textbf{Chapa negra} 
+    \end{itemize}
+
+    \begin{tabular}{ c  c  c }
+        \toprule
+        N \textdegree & Sensor Pasco (mV) & Temperatura (\textdegree C) \\ \hline
+        \midrule
+        1   &   3,8     &   51 \\ \hline
+        2   &   3,6     &   50,4 \\ \hline
+        3   &   3,5     &   49,5 \\ \hline
+        4   &   3,3     &   48,8 \\ \hline
+        5   &   3,1     &   47,5 \\ \hline
+        6   &   3,0     &   46,6 \\ \hline
+        7   &   2,9     &   45,8 \\ \hline
+        8   &   2,7     &   45,1 \\ \hline
+        9   &   2,2     &   42,4 \\ \hline
+        10  &   2       &   41,5 \\ \hline
+        11  &   1,9     &   40,4 \\ \hline
+        12  &   1,7     &   39,4 \\ \hline
+        13  &   1,5     &   38,5 \\ \hline
+        14  &   1,4     &   37,9 \\ \hline
+        \bottomrule
+    \end{tabular}
+
+    \begin{itemize}
+            \item \textbf{Plomo} 
+    \end{itemize}
+
+    \begin{tabular}{ c  c  c }
+        \toprule
+        N \textdegree & Sensor Pasco (mV) & Temperatura (\textdegree C) \\ \hline
+        \midrule
+        1   &   3,5     &   51 \\ \hline
+        2   &   3,3     &   50,5 \\ \hline
+        3   &   3,2     &   50 \\ \hline
+        4   &   3,0     &   49 \\ \hline
+        5   &   2,9     &   48 \\ \hline
+        6   &   2,7     &   47 \\ \hline
+        7   &   2,5     &   46 \\ \hline
+        8   &   2,4     &   45 \\ \hline
+        9   &   2,2     &   44 \\ \hline
+        10  &   2       &   43 \\ \hline
+        11  &   1,9     &   42 \\ \hline
+        12  &   1,8     &   41 \\ \hline
+        13  &   1,6     &   40 \\ \hline
+        14  &   1,4     &   39 \\ \hline
+        15  &   1,3     &   38 \\ \hline
+        16  &   1,1     &   37 \\ \hline
+        \bottomrule
+    \end{tabular}
+
+    \begin{itemize}
+            \item \textbf{Cobre} 
+    \end{itemize}
+
+    \begin{tabular}{ c  c  c }
+        \toprule
+         N \textdegree & Sensor Pasco (mV) & Temperatura (\textdegree C) \\ \hline
+         \midrule
+         1   &   1,7     &   51,3 \\ \hline
+         2   &   1,6     &   51,5 \\ \hline
+         3   &   1,5     &   50,6 \\ \hline
+         4   &   1,4     &   49,6 \\ \hline
+         5   &   1,3     &   48,6 \\ \hline
+         6   &   1,2     &   47,1 \\ \hline
+         7   &   1,1     &   45,9 \\ \hline
+         8   &   1,0     &   44,7 \\ \hline
+         9   &   0,9     &   43,2 \\ \hline
+         10  &   0,8     &   40,7 \\ \hline
+         11  &   0,7     &   40,3 \\ \hline
+         12  &   0,6     &   38,8 \\ \hline
+         \bottomrule
+    \end{tabular}
+
+    \begin{itemize}
+       \item \textbf{Aluminio anodizado} 
+    \end{itemize}
+    \begin{tabular}{ c  c  c }
+            \toprule
+            N \textdegree & Sensor Pasco (mV) & Temperatura (\textdegree C) \\ \hline
+            \midrule
+            1   & 2,9  & 50  \\ \hline
+            2   & 2,7  & 49  \\ \hline
+            3   & 2,6  & 48  \\ \hline
+            4   & 2,4  & 47  \\ \hline
+            5   & 2,2  & 46  \\ \hline
+            6   & 2    & 45  \\ \hline
+            7   & 1,9  & 44  \\ \hline
+            8   & 1,8  & 43  \\ \hline   
+            9   & 1,6  & 42  \\ \hline
+            10   & 1,5  & 41 \\ \hline
+            11  & 1,3  & 40  \\ \hline
+            \bottomrule
+        \end{tabular}
+
 \end{document}
 
 
