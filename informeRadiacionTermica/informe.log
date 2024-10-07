@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.9.26)  5 OCT 2024 13:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.9.26)  6 OCT 2024 14:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -687,20 +687,14 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
  <./radiaciónTermVSLambda.png (PNG copy)> <./sensorPasco.png (PNG copy)> <./mu
 ltimetro.png (PNG copy)>]
-Overfull \hbox (91.13187pt too wide) in paragraph at lines 134--162
-[]$[]$
- []
-
-
-Underfull \vbox (badness 4582) has occurred while \output is active []
-
-
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[2] (./informe.aux
+[2
+
+] (./informe.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
@@ -710,10 +704,10 @@ L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 15244 strings out of 476014
- 299450 string characters out of 5792005
- 1953187 words of memory out of 5000000
- 37096 multiletter control sequences out of 15000+600000
+ 15246 strings out of 476014
+ 299506 string characters out of 5792005
+ 1944187 words of memory out of 5000000
+ 37098 multiletter control sequences out of 15000+600000
  572819 words of font info for 65 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
  102i,11n,107p,421b,634s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -722,7 +716,7 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/font
 s/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/urw/time
 s/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/shar
 e/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on informe.pdf (4 pages, 859452 bytes).
+Output written on informe.pdf (4 pages, 858062 bytes).
 PDF statistics:
  57 PDF objects out of 1000 (max. 8388607)
  32 compressed objects within 1 object stream
