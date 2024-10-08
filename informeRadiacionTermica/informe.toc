@@ -9,3 +9,4 @@
 \contentsline {subsection}{\numberline {2.3}Multímetros}{1}{}%
 \contentsline {section}{\numberline {3}PROCEDIMIENTO}{1}{}%
 \contentsline {subsection}{\numberline {3.1}Medición de radiación de materiales}{1}{}%
+\contentsline {subsection}{\numberline {3.2}Gráfico de tendencia}{2}{}%

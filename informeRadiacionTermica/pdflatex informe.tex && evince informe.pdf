@@ -138,26 +138,26 @@
 
             \vspace{2.5mm}
 
-            \begin{tabular}{ c  c  c  c }
+            \begin{tabular}{ c  c  c }
                 \toprule
-                N \textdegree & Sensor (mV) & Rad. (Watts) & Temp. (\textdegree C) \\ 
+                 N \textdegree & Sensor Pasco (mV) & Temperatura (\textdegree C) \\ 
                  \midrule
-                1   &   1,4  & 0,064   &   51,7 \\ 
-                2   &   1,4  & 0,064   &   50,8 \\ 
-                3   &   1,3  & 0,059   &   49,6 \\ 
-                4   &   1,3  & 0,059   &   48,6 \\ 
-                5   &   1,2  & 0,055   &   47,6 \\ 
-                6   &   1,1  & 0,050   &   46,6 \\ 
-                7   &   1,0  & 0,045   &   45,6 \\ 
-                8   &   1,0  & 0,045   &   44,6 \\ 
-                9   &   0,9  & 0,041   &   43,6 \\ 
-                10  &   0,8  & 0,036   &   42,6 \\ 
-                11  &   0,8  & 0,036   &   41,6 \\ 
-                12  &   0,7  & 0,032   &   40,6 \\ 
-                13  &   0,6  & 0,027   &   39,6 \\ 
-                14  &   0,6  & 0,027   &   38,6 \\ 
-                15  &   0,5  & 0,023   &   37,6 \\ 
-                16  &   0,4  & 0,018   &   36,4 \\ 
+                      1   &   1,4     &   51,7 \\ 
+                      2   &   1,4     &   50,8 \\ 
+                      3   &   1,3     &   49,6 \\ 
+                      4   &   1,3     &   48,6 \\ 
+                      5   &   1,2     &   47,6 \\ 
+                      6   &   1,1     &   46,6 \\ 
+                      7   &   1,0     &   45,6 \\ 
+                      8   &   1,0     &   44,6 \\ 
+                      9   &   0,9     &   43,6 \\ 
+                      10  &   0,8     &   42,6 \\ 
+                      11  &   0,8     &   41,6 \\ 
+                      12  &   0,7     &   40,6 \\ 
+                      13  &   0,6     &   39,6 \\ 
+                      14  &   0,6     &   38,6 \\ 
+                      15  &   0,5     &   37,6 \\ 
+                      16  &   0,4     &   36,4 \\ 
                 \bottomrule
             \end{tabular}
        
@@ -167,22 +167,22 @@
 
             \vspace{2.5mm}
 
-            \begin{tabular}{ c  c  c  c }
+            \begin{tabular}{ c  c  c }
                 \toprule
-                N \textdegree & Sensor (mV) & Rad. (Watts) & Temp. (\textdegree C) \\ 
+                 N \textdegree & Sensor Pasco (mV) & Temperatura (\textdegree C) \\ 
                  \midrule
-                1   &   1,7 & 0,077    &   51,3 \\ 
-                2   &   1,6 & 0,073   &   51,5 \\ 
-                3   &   1,5 & 0,068   &   50,6 \\ 
-                4   &   1,4 & 0,064   &   49,6 \\ 
-                5   &   1,3 & 0,059   &   48,6 \\ 
-                6   &   1,2 & 0,055   &   47,1 \\ 
-                7   &   1,1 & 0,050   &   45,9 \\ 
-                8   &   1,0 & 0,045   &   44,7 \\ 
-                9   &   0,9 & 0,041   &   43,2 \\ 
-                10  &   0,8 & 0,036   &   40,7 \\ 
-                11  &   0,7 & 0,032   &   40,3 \\ 
-                12  &   0,6 & 0,027   &   38,8 \\ 
+                     1   &   1,7     &   51,3 \\ 
+                     2   &   1,6     &   51,5 \\ 
+                     3   &   1,5     &   50,6 \\ 
+                     4   &   1,4     &   49,6 \\ 
+                     5   &   1,3     &   48,6 \\ 
+                     6   &   1,2     &   47,1 \\ 
+                     7   &   1,1     &   45,9 \\ 
+                     8   &   1,0     &   44,7 \\ 
+                     9   &   0,9     &   43,2 \\ 
+                     10  &   0,8     &   40,7 \\ 
+                     11  &   0,7     &   40,3 \\ 
+                     12  &   0,6     &   38,8 \\ 
                 \bottomrule
             \end{tabular}
             
@@ -192,21 +192,21 @@
 
             \vspace{2.5mm}
 
-            \begin{tabular}{ c  c  c  c }
+            \begin{tabular}{ c  c  c }
                 \toprule
-                N \textdegree & Sensor (mV) & Rad. (Watts) & Temp. (\textdegree C) \\
+                N \textdegree & Sensor Pasco (mV) & Temperatura (\textdegree C) \\
                 \midrule
-                1   & 2,9 & 0,132 & 50  \\ 
-                2   & 2,7 & 0,123 & 49  \\ 
-                3   & 2,6 & 0,118 & 48  \\ 
-                4   & 2,4 & 0,109 & 47  \\ 
-                5   & 2,2 & 0,100 & 46  \\ 
-                6   & 2   & 0,091 & 45  \\ 
-                7   & 1,9 & 0,086 & 44  \\ 
-                8   & 1,8 & 0,082 & 43  \\ 
-                9   & 1,6 & 0,073 & 42  \\ 
-                10  & 1,5 & 0,068 & 41 \\ 
-                11  & 1,3 & 0,059 & 40  \\ 
+                    1   & 2,9  & 50  \\ 
+                    2   & 2,7  & 49  \\ 
+                    3   & 2,6  & 48  \\ 
+                    4   & 2,4  & 47  \\ 
+                    5   & 2,2  & 46  \\ 
+                    6   & 2    & 45  \\ 
+                    7   & 1,9  & 44  \\ 
+                    8   & 1,8  & 43  \\ 
+                    9   & 1,6  & 42  \\ 
+                    10   & 1,5  & 41 \\ 
+                    11  & 1,3  & 40  \\ 
                 \bottomrule
             \end{tabular}
 
@@ -216,26 +216,26 @@
 
             \vspace{2.5mm}
 
-            \begin{tabular}{ c  c  c  c }
+            \begin{tabular}{ c  c  c }
                 \toprule
-                N \textdegree & Sensor (mV) & Rad. (Watts) & Temp. (\textdegree C) \\
+                N \textdegree & Sensor Pasco (mV) & Temperatura (\textdegree C) \\
                 \midrule
-                1   &  3,5 & 0,159 &  51  \\
-                2   &  3,3 & 0,150 &  50,5 \\
-                3   &  3,2 & 0,145 &  50 \\
-                4   &  3   & 0,136 &  49 \\
-                5   &  2,9 & 0,132 &  48 \\ 
-                6   &  2,7 & 0,123 &  47 \\ 
-                7   &  2,5 & 0,114 &  46 \\ 
-                8   &  2,4 & 0,109 &  45 \\ 
-                9   &  2,2 & 0,100 &  44 \\
-                10  &  2   & 0,091 &  43 \\ 
-                11  &  1,9 & 0,086 &  42 \\ 
-                12  &  1,8 & 0,082 &  41 \\ 
-                13  &  1,6 & 0,073 &  40 \\
-                14  &  1,4 & 0,064 &  39 \\ 
-                15  &  1,3 & 0,059 &  38 \\
-                16  &  1,1 & 0,050 &  37 \\
+                1   &  3,5 &  51  \\
+                2   &  3,3 &  50,5 \\
+                3   &  3,2 &  50 \\
+                4   &  3   &  49 \\
+                5   &  2,9 &  48 \\ 
+                6   &  2,7 &  47 \\ 
+                7   &  2,5 &  46 \\ 
+                8   &  2,4 &  45 \\ 
+                9   &  2,2 &  44 \\
+                10  &  2   &  43 \\ 
+                11  &  1,9 &  42 \\ 
+                12  &  1,8 &  41 \\ 
+                13  &  1,6 &  40 \\
+                14  &  1,4 &  39 \\ 
+                15  &  1,3 &  38 \\
+                16  &  1,1 &  37 \\
                 \bottomrule
             \end{tabular}
             
@@ -245,24 +245,24 @@
 
             \vspace{2.5mm}
 
-            \begin{tabular}{ c  c  c  c }
+            \begin{tabular}{ c  c  c }
                 \toprule
-                N \textdegree & Sensor (mV) & Rad. (Watts) & Temp. (\textdegree C) \\
+                N \textdegree & Sensor Pasco (mV) & Temperatura (\textdegree C) \\
                 \midrule
-                1   &   3,8 & 0,173 &   51 \\
-                2   &   3,6 & 0,164 &   50,4 \\
-                3   &   3,5 & 0,159 &   49,5 \\
-                4   &   3,3 & 0,150 &   48,8 \\
-                5   &   3,1 & 0,141 &   47,5 \\
-                6   &   3   & 0,136 &   46,6 \\
-                7   &   2,9 & 0,132 &   45,8 \\
-                8   &   2,7 & 0,123 &   45,1 \\
-                9   &   2,2 & 0,100 &   42,4 \\
-                10  &   2   & 0,091 &   41,5 \\
-                11  &   1,9 & 0,086 &   40,4 \\
-                12  &   1,7 & 0,077 &   39,4 \\
-                13  &   1,5 & 0,068 &   38,5 \\
-                14  &   1,4 & 0,064 &   37,9 \\
+                    1   &   3,8 &   51 \\
+                    2   &   3,6 &   50,4 \\
+                    3   &   3,5 &   49,5 \\
+                    4   &   3,3 &   48,8 \\
+                    5   &   3,1 &   47,5 \\
+                    6   &   3   &   46,6 \\
+                    7   &   2,9 &   45,8 \\
+                    8   &   2,7 &   45,1 \\
+                    9   &   2,2 &   42,4 \\
+                    10  &   2   &   41,5 \\
+                    11  &   1,9 &   40,4 \\
+                    12  &   1,7 &   39,4 \\
+                    13  &   1,5 &   38,5 \\
+                    14  &   1,4 &   37,9 \\
                 \bottomrule
             \end{tabular}
 
@@ -272,9 +272,9 @@
             \indent En este apartado, usando los datos obtenidos de las mediciones, se realizará un gráfico de la radiación térmica en función de la temperatura de cada material.
 
             \begin{tikzpicture}[remember picture, overlay]
-                \node at (3cm, -3.5cm) {
+                \node at (0.75cm, -3cm) {
                     \begin{minipage}[c]{6cm}
-                    \includegraphics[width = 8cm]{./graficoRadiacionTemperatura.png}
+                    \includegraphics[width = 12cm]{./graficoRadiacionTemperatura.png}
             \end{minipage}};
             \end{tikzpicture}
 
