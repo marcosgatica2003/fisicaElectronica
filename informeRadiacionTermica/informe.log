@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.9.26)  6 OCT 2024 14:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.10.8)  8 OCT 2024 14:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -422,7 +422,7 @@ LaTeX Info: Redefining \] on input line 2954.
 Package: babel 2024/02/07 v24.2 The Babel package
 \babel@savecnt=\count298
 \U@D=\dimen266
-\l@unhyphenated=\language8
+\l@unhyphenated=\language5
 
 (/usr/share/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read3
@@ -430,14 +430,23 @@ Package: babel 2024/02/07 v24.2 The Babel package
 
 (/usr/share/texmf-dist/tex/generic/babel-spanish/spanish.ldf
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+
+
+Package babel Warning: No hyphenation patterns were preloaded for
+(babel)                the language 'Spanish' into the format.
+(babel)                Please, configure your TeX system to add them and
+(babel)                rebuild the format. Now I will use the patterns
+(babel)                preloaded for \language=0 instead on input line 51.
+
+Package babel Info: Hyphen rules for 'spanish' set to \l@english
+(babel)             (\language0). Reported on input line 52.
 \es@quottoks=\toks36
 \es@quotdepth=\count300
 Package babel Info: Making " an active character on input line 570.
 Package babel Info: Making . an active character on input line 675.
 Package babel Info: Making < an active character on input line 722.
 Package babel Info: Making > an active character on input line 722.
-))
-(/usr/share/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex
+)) (/usr/share/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex
 Package babel Info: Importing font and identification data for spanish
 (babel)             from babel-es.ini. Reported on input line 11.
 )
@@ -478,48 +487,118 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@lastruleclass=\count304
 \@thisrulewidth=\dimen284
 )
+(/usr/share/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
+\c@tracingmulticols=\count305
+\mult@box=\box65
+\multicol@leftmargin=\dimen285
+\c@unbalance=\count306
+\c@collectmore=\count307
+\doublecol@number=\count308
+\multicoltolerance=\count309
+\multicolpretolerance=\count310
+\full@width=\dimen286
+\page@free=\dimen287
+\premulticols=\dimen288
+\postmulticols=\dimen289
+\multicolsep=\skip64
+\multicolbaselineskip=\skip65
+\partial@page=\box66
+\last@line=\box67
+\mc@boxedresult=\box68
+\maxbalancingoverflow=\dimen290
+\mult@rightbox=\box69
+\mult@grightbox=\box70
+\mult@firstbox=\box71
+\mult@gfirstbox=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\c@minrows=\count311
+\c@columnbadness=\count312
+\c@finalcolumnbadness=\count313
+\last@try=\dimen291
+\multicolovershoot=\dimen292
+\multicolundershoot=\dimen293
+\mult@nat@firstbox=\box109
+\colbreak@box=\box110
+\mc@col@check@num=\count314
+)
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 2
-0.
+1.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count305
-\l__pdf_internal_box=\box65
+\l__color_backend_stack_int=\count315
+\l__pdf_internal_box=\box111
 ) (./informe.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
 \openout1 = `informe.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
  (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count306
-\scratchdimen=\dimen285
-\scratchbox=\box66
-\nofMPsegments=\count307
-\nofMParguments=\count308
+\scratchcounter=\count316
+\scratchdimen=\dimen294
+\scratchbox=\box112
+\nofMPsegments=\count317
+\nofMParguments=\count318
 \everyMPshowfont=\toks40
-\MPscratchCnt=\count309
-\MPscratchDim=\dimen286
-\MPnumerator=\count310
-\makeMPintoPDFobject=\count311
+\MPscratchCnt=\count319
+\MPscratchDim=\dimen295
+\MPnumerator=\count320
+\makeMPintoPDFobject=\count321
 \everyMPtoPDFconversion=\toks41
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -564,18 +643,18 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \. on input line 20.
-LaTeX Info: Redefining \% on input line 20.
+LaTeX Info: Redefining \. on input line 21.
+LaTeX Info: Redefining \% on input line 21.
 </home/marcosgatica/Imágenes/utn.png, id=4, 216.81pt x 234.8775pt>
 File: /home/marcosgatica/Imágenes/utn.png Graphic file (type png)
 <use /home/marcosgatica/Imágenes/utn.png>
 Package pdftex.def Info: /home/marcosgatica/Imágenes/utn.png  used on input li
-ne 27.
+ne 28.
 (pdftex.def)             Requested size: 85.35826pt x 92.47275pt.
 <./imagenCaratula.png, id=5, 297.36093pt x 327.47343pt>
 File: ./imagenCaratula.png Graphic file (type png)
 <use ./imagenCaratula.png>
-Package pdftex.def Info: ./imagenCaratula.png  used on input line 28.
+Package pdftex.def Info: ./imagenCaratula.png  used on input line 29.
 (pdftex.def)             Requested size: 170.71652pt x 188.00095pt.
 [1
 
@@ -644,37 +723,42 @@ Overfull \hbox (71.13188pt too wide) in paragraph at lines 84--85
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-05.
+06.
 (/usr/share/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
+Underfull \hbox (badness 5446) in paragraph at lines 105--109
+[]\OT1/ptm/m/n/10 La elec-tr[]onica aso-ci-a-da del dis-pos-i-ti-vo em-plea-do 
+(con
+ []
+
 <./sensorPasco.png, id=18, 260.47313pt x 403.5075pt>
 File: ./sensorPasco.png Graphic file (type png)
 <use ./sensorPasco.png>
-Package pdftex.def Info: ./sensorPasco.png  used on input line 113.
+Package pdftex.def Info: ./sensorPasco.png  used on input line 114.
 (pdftex.def)             Requested size: 99.58464pt x 154.27031pt.
 
-Overfull \hbox (14.22638pt too wide) in paragraph at lines 113--114
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 114--115
 [][] 
  []
 
 <./multimetro.png, id=19, 326.72063pt x 356.83313pt>
 File: ./multimetro.png Graphic file (type png)
 <use ./multimetro.png>
-Package pdftex.def Info: ./multimetro.png  used on input line 123.
+Package pdftex.def Info: ./multimetro.png  used on input line 124.
 (pdftex.def)             Requested size: 113.81102pt x 124.29997pt.
 
-Overfull \hbox (28.45276pt too wide) in paragraph at lines 123--124
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 124--125
 [][] 
  []
 
@@ -683,18 +767,14 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[1
-
- <./radiaciónTermVSLambda.png (PNG copy)> <./sensorPasco.png (PNG copy)> <./mu
-ltimetro.png (PNG copy)>]
+[1 <./radiaciónTermVSLambda.png (PNG copy)> <./sensorPasco.png (PNG copy)> <./
+multimetro.png (PNG copy)>]
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[2
-
-] (./informe.aux
+[2] (./informe.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
@@ -704,19 +784,19 @@ L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 15246 strings out of 476014
- 299506 string characters out of 5792005
- 1944187 words of memory out of 5000000
- 37098 multiletter control sequences out of 15000+600000
+ 15390 strings out of 476076
+ 301882 string characters out of 5793775
+ 1965187 words of memory out of 5000000
+ 37231 multiletter control sequences out of 15000+600000
  572819 words of font info for 65 fonts, out of 8000000 for 9000
- 40 hyphenation exceptions out of 8191
- 102i,11n,107p,421b,634s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 14 hyphenation exceptions out of 8191
+ 102i,11n,107p,433b,800s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/font
 s/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/urw/time
 s/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/shar
 e/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on informe.pdf (4 pages, 858062 bytes).
+Output written on informe.pdf (4 pages, 859102 bytes).
 PDF statistics:
  57 PDF objects out of 1000 (max. 8388607)
  32 compressed objects within 1 object stream
