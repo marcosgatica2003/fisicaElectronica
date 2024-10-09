@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.10.8)  8 OCT 2024 16:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.10.8)  9 OCT 2024 16:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -703,81 +703,110 @@ LaTeX Info: Redefining \% on input line 1.
  [0
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 74--77
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
 
 <./radiaciónTermVSLambda.png, id=17, 792.71156pt x 700.86844pt>
 File: ./radiaciónTermVSLambda.png Graphic file (type png)
 <use ./radiaciónTermVSLambda.png>
-Package pdftex.def Info: ./radiaciónTermVSLambda.png  used on input line 84.
+Package pdftex.def Info: ./radiaciónTermVSLambda.png  used on input line 85.
 (pdftex.def)             Requested size: 156.49014pt x 138.35315pt.
-
-Overfull \hbox (71.13188pt too wide) in paragraph at lines 84--85
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-06.
+09.
 (/usr/share/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Underfull \hbox (badness 5446) in paragraph at lines 105--109
+Overfull \hbox (9.71568pt too wide) in paragraph at lines 108--110
 []\OT1/ptm/m/n/10 La elec-tr[]onica aso-ci-a-da del dis-pos-i-ti-vo em-plea-do 
-(con
+(con trasmisores
  []
 
-<./sensorPasco.png, id=18, 260.47313pt x 403.5075pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--110
+
+ []
+
+<./leslie.jpeg, id=18, 1039.885pt x 1325.95375pt>
+File: ./leslie.jpeg Graphic file (type jpg)
+<use ./leslie.jpeg>
+Package pdftex.def Info: ./leslie.jpeg  used on input line 113.
+(pdftex.def)             Requested size: 99.58464pt x 126.97853pt.
+
+Overfull \hbox (0.2955pt too wide) in paragraph at lines 116--117
+\OT1/ptm/m/it/10 mente el dis-pos-i-ti-vo tiene una sal-i-da para leer los mV d
+e la relaci[]on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+
+ []
+
+<./sensorPasco.png, id=19, 260.47313pt x 403.5075pt>
 File: ./sensorPasco.png Graphic file (type png)
 <use ./sensorPasco.png>
-Package pdftex.def Info: ./sensorPasco.png  used on input line 114.
+Package pdftex.def Info: ./sensorPasco.png  used on input line 122.
 (pdftex.def)             Requested size: 99.58464pt x 154.27031pt.
-
-Overfull \hbox (14.22638pt too wide) in paragraph at lines 114--115
-[][] 
- []
-
-<./multimetro.png, id=19, 326.72063pt x 356.83313pt>
+<./multimetro.png, id=20, 326.72063pt x 356.83313pt>
 File: ./multimetro.png Graphic file (type png)
 <use ./multimetro.png>
-Package pdftex.def Info: ./multimetro.png  used on input line 124.
-(pdftex.def)             Requested size: 113.81102pt x 124.29997pt.
-
-Overfull \hbox (28.45276pt too wide) in paragraph at lines 124--125
-[][] 
- []
-
+Package pdftex.def Info: ./multimetro.png  used on input line 130.
+(pdftex.def)             Requested size: 99.58464pt x 108.76044pt.
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[1 <./radiaciónTermVSLambda.png (PNG copy)> <./sensorPasco.png (PNG copy)> <./
-multimetro.png (PNG copy)>]
-<./graficoRadiacionTemperatura.png, id=27, 688.0104pt x 723.4227pt>
+[1
+
+ <./radiaciónTermVSLambda.png (PNG copy)> <./leslie.jpeg> <./sensorPasco.png (
+PNG copy)> <./multimetro.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+
+ []
+
+<./graficoRadiacionTemperatura.png, id=28, 1386.1386pt x 714.0276pt>
 File: ./graficoRadiacionTemperatura.png Graphic file (type png)
 <use ./graficoRadiacionTemperatura.png>
 Package pdftex.def Info: ./graficoRadiacionTemperatura.png  used on input line 
-277.
-(pdftex.def)             Requested size: 227.62204pt x 239.33734pt.
+292.
+(pdftex.def)             Requested size: 256.0748pt x 131.90782pt.
 
-Overfull \hbox (56.90552pt too wide) in paragraph at lines 277--278
-[][] 
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[2 <./graficoRadiacionTemperatura.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 299--301
+
+ []
+
+<./graficoRadiacionDistancia.png, id=34, 1386.1386pt x 714.0276pt>
+File: ./graficoRadiacionDistancia.png Graphic file (type png)
+<use ./graficoRadiacionDistancia.png>
+Package pdftex.def Info: ./graficoRadiacionDistancia.png  used on input line 34
+5.
+(pdftex.def)             Requested size: 256.0748pt x 131.90782pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--356
+
+ []
+
+
+Overfull \hbox (1.206pt too wide) in paragraph at lines 400--403
+[]\OT1/ptm/m/n/10 El tra-ba-jo de lab-o-ra-to-rio per-mi-ti[]o con-cluir en que
+ la trans-misi[]on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--403
+
  []
 
 
@@ -785,7 +814,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[2 <./graficoRadiacionTemperatura.png>] (./informe.aux
+[3 <./graficoRadiacionDistancia.png>] (./informe.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
@@ -795,22 +824,25 @@ L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 15399 strings out of 476076
- 302202 string characters out of 5793775
- 1977187 words of memory out of 5000000
- 37240 multiletter control sequences out of 15000+600000
+ 15416 strings out of 476076
+ 302556 string characters out of 5793775
+ 1962187 words of memory out of 5000000
+ 37257 multiletter control sequences out of 15000+600000
  572819 words of font info for 65 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 102i,11n,107p,433b,812s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,11n,107p,436b,630s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/urw/time
-s/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/shar
-e/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on informe.pdf (4 pages, 927122 bytes).
+s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7
+.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
+re/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/typ
+e1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pf
+b>
+Output written on informe.pdf (5 pages, 1269592 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+ 81 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 

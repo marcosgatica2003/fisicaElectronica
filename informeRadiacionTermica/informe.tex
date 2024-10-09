@@ -67,27 +67,27 @@
 \newpage
 \thispagestyle{fancy}
 
-\begin{multicols}{2}
+\twocolumn
     \flushbottom
     \section{INTRODUCCIÓN}
         \subsection{La radiación térmica}
             \indent Se entiende como la radiación térmica al modo de transmitir calor de un sistema (la superficie de un cuerpo) al entorno. No requiere un medio para transmitirse, aunque es más eficaz la transmisión en el vacío. \\
             \indent Una superficie calentada a un temperatura finita interactua con el medio a menor temperatura y comienza la transmisión de calor, esto último es conocido como la radiación que emite un objeto más caliente que su entorno hasta alcanzar el equilibrio térmico. \\
             \indent La radiación que emite un sólido más caliente que su entorno se conoce como emisividad (\textbf{E}), proviene de la energía interna y la velocidad a la que la energía es emitida por la materia por su unidad de área (\textit{$\frac {W} {m^2}$}). \\
+            \vspace{0mm}            
 
         \subsection{Radiación y las longitudes de onda}
+
             \indent La radiación térmica que emite un cuerpo caliente representa varias longitudes de onda. Gráficamente se puede ver que cada curva representa la variación de emisión monocromática con la long. de onda $\lambda$ \\
 
-            \begin{tikzpicture}[remember picture, overlay]
-                \node at (2.75cm, -2cm) {
-                    \begin{minipage}[c]{3cm}
-                    \includegraphics[width = 5.5cm]{./radiaciónTermVSLambda.png}
-            \end{minipage}};
-            \end{tikzpicture}
-        \vspace{4.8cm}
+			\begin{figure}[h!]
+				\centering
+				 \includegraphics[width =5.5cm]{./radiaciónTermVSLambda.png}
+			\end{figure}
 
         \subsection{Experimento y objetivos}
             \indent El objetivo de este desarrollo de laboratorio es determinar la radiación térmica que emanan los siguientes materiales: \\
+            \vspace{-5mm}            
             \begin{itemize}
                 \setlength{\itemsep}{0pt}
                 \item Plomo 
@@ -99,48 +99,54 @@
         
             \indent Complementario a esto, se tomará uno de los elementos seleccionados de la lista anterior para medir la radiación a cierta distancia del mismo con el fin de evaluar cómo el entorno del laboratorio influye en las mediciones de radiación. \\
 
+
      \section{REQUERIMIENTOS}
         El desarrollo del trabajo en el laboratorio requirió de los siguientes elementos:
         \subsection{El cubo de Leslie}
-            \indent El cubo de Leslie permite medir y/o mostrar la energía radiada por diversos materiales en contacto con el dispositivo. \\
+            \indent El cubo de Leslie permite medir y/o mostrar la energía radiada por diversos materiales en contacto con el dispositivo. 
+            \newpage
+            \noindent
             \indent La electrónica asociada del dispositivo empleado (con trasmisores LM-335, transductores pasivos y activos) permite obtener una sensibilidad de \textit{10mV x 1\textdegree K} \\
-            %IMAGEN DEL APARATO
+
+			\begin{figure}[h!]
+				\centering
+				\includegraphics[width =3.5cm]{./leslie.jpeg}
+			\end{figure}
+
             \indent \textit{Nota: debido a un desperfecto en el instrumento, se optó por medir la temperatura de los materiales de otra forma. Naturalmente el dispositivo tiene una salida para leer los mV de la relación anteriormente mencionada.}
         \subsection{Sensor de radiación Pasco}
             \indent Este sensor lee la radiación térmica emitida por un cuerpo y devuelve un valor en mV en relación a la cantidad de mW detectados (\textit{22mV x mW}). \\
-            \begin{tikzpicture}[remember picture, overlay]
-                \node at (4.75cm, -3.25cm) {
-                    \begin{minipage}[c]{3cm}
-                        \includegraphics[width = 3.5cm]{./sensorPasco.png}
-                    \end{minipage}};
-            \end{tikzpicture}
-            \vspace{6.5cm}
-
+            
+            \begin{figure}[h!]
+            	\centering
+            	\includegraphics[width =3.5cm]{./sensorPasco.png}
+            \end{figure}
+            	
         \subsection{Multímetros}
             \indent El experimento requirió de dos multímetros: uno como solución al problema del cubo de Leslie, con el cual se realizaron las mediciones de temperatura a la placa en grados Celsius usando sondas; y el restante para medir los mV del sensor Pasco.
-            \begin{tikzpicture}[remember picture, overlay]
-                \node at (-4.5cm, -3cm) {
-                    \begin{minipage}[c]{3cm}
-                        \includegraphics[width = 4cm]{./multimetro.png}
-                    \end{minipage}};
-            \end{tikzpicture}
-            \vspace{5cm}
+            
+            \begin{figure}[h!]
+            	\centering
+            	\includegraphics[width =3.5cm]{./multimetro.png}
+            \end{figure}
+               
+            \newpage
+            \thispagestyle{fancy}
+                       
     \section{PROCEDIMIENTO}
-        \subsection{Medición de radiación de materiales}
-
-        \indent Se colocó cada placa del material en cuestión sobre la superficie del cubo de Leslie con el fin de que esta se calentase. Las siguientes tablas muestran las series de mediciones realizadas, de cada muestra, donde se registraron datos de evolución del sensor Pasco hasta una temperatura de equilibrio (donde la placa no subía más de temperatura en contacto con el cubo de Leslie):
-
-        \newpage
-        \thispagestyle{fancy}
-
-        \begin{center}
-            \textit{Aluminio} 
-
-            \vspace{2.5mm}
+    	
+        \subsection{Medición de radiación de materiales} 
+	       \indent Se colocó cada placa del material en cuestión sobre la superficie del cubo de Leslie con el fin de que esta se calentase. Las siguientes tablas muestran las series de mediciones realizadas, de cada muestra, donde se registraron datos de evolución del sensor Pasco hasta una temperatura de equilibrio (donde la placa no subía más de temperatura en contacto con el cubo de Leslie): \\
+	       
+	       \begin{minipage}[c]{7.5cm}
+	       		\centering
+           		 \textit{Aluminio} 
+           		\vspace{2mm}
+	       \end{minipage}
 
             \begin{tabular}{ c  c  c  c }
                 \toprule
-                N \textdegree & Sensor (mV) & Rad. (Watts) & Temp. (\textdegree C) \\ 
+                N \textdegree & Sensor (mV) & Rad. (mW) & Temp. (\textdegree C) \\ 
                  \midrule
                 1   &   1,4  & 0,064   &   51,7 \\ 
                 2   &   1,4  & 0,064   &   50,8 \\ 
@@ -160,16 +166,18 @@
                 16  &   0,4  & 0,018   &   36,4 \\ 
                 \bottomrule
             \end{tabular}
-       
-            \vspace{5mm}
 
-            \textit{Cobre} 
-
-            \vspace{2.5mm}
-
+%            \textit{Cobre} 
+	      	 \begin{minipage}[c]{7.5cm}
+	      	 	\vspace{5mm}
+				\centering
+				\textit{Cobre} 
+				\vspace{2mm}
+			\end{minipage}
+			
             \begin{tabular}{ c  c  c  c }
                 \toprule
-                N \textdegree & Sensor (mV) & Rad. (Watts) & Temp. (\textdegree C) \\ 
+                N \textdegree & Sensor (mV) & Rad. (mW) & Temp. (\textdegree C) \\ 
                  \midrule
                 1   &   1,7 & 0,077    &   51,3 \\ 
                 2   &   1,6 & 0,073   &   51,5 \\ 
@@ -186,15 +194,17 @@
                 \bottomrule
             \end{tabular}
             
-            \vspace{5mm}
-
-            \textit{Aluminio anodizado} 
-
-            \vspace{2.5mm}
-
+           % \textit{Aluminio anodizado} 
+	      	 \begin{minipage}[c]{7.5cm}
+				\vspace{5mm}
+				\centering
+				\textit{Aluminio anodizado} 
+				\vspace{2mm}
+			\end{minipage}
+			
             \begin{tabular}{ c  c  c  c }
                 \toprule
-                N \textdegree & Sensor (mV) & Rad. (Watts) & Temp. (\textdegree C) \\
+                N \textdegree & Sensor (mV) & Rad. (mW) & Temp. (\textdegree C) \\
                 \midrule
                 1   & 2,9 & 0,132 & 50  \\ 
                 2   & 2,7 & 0,123 & 49  \\ 
@@ -210,15 +220,20 @@
                 \bottomrule
             \end{tabular}
 
-            \columnbreak
+			\newpage
+			\noindent
 
-            \textit{Plomo} 
-
-            \vspace{2.5mm}
-
+%            \textit{Plomo} 
+	      	 \begin{minipage}[c]{7.5cm}
+%				\vspace{5mm}
+				\centering
+				\textit{Plomo} 
+				\vspace{2mm}
+			\end{minipage}
+			
             \begin{tabular}{ c  c  c  c }
                 \toprule
-                N \textdegree & Sensor (mV) & Rad. (Watts) & Temp. (\textdegree C) \\
+                N \textdegree & Sensor (mV) & Rad. (mW) & Temp. (\textdegree C) \\
                 \midrule
                 1   &  3,5 & 0,159 &  51  \\
                 2   &  3,3 & 0,150 &  50,5 \\
@@ -239,15 +254,18 @@
                 \bottomrule
             \end{tabular}
             
-            \vspace{5mm}
+%            \textit{Chapa negra} 
 
-            \textit{Chapa negra} 
-
-            \vspace{2.5mm}
+	      	\begin{minipage}[c]{7.5cm}
+				\vspace{5mm}
+				\centering
+				\textit{Chapa negra} 
+				\vspace{2mm}
+			\end{minipage}
 
             \begin{tabular}{ c  c  c  c }
                 \toprule
-                N \textdegree & Sensor (mV) & Rad. (Watts) & Temp. (\textdegree C) \\
+                N \textdegree & Sensor (mV) & Rad. (mW) & Temp. (\textdegree C) \\
                 \midrule
                 1   &   3,8 & 0,173 &   51 \\
                 2   &   3,6 & 0,164 &   50,4 \\
@@ -266,20 +284,127 @@
                 \bottomrule
             \end{tabular}
 
-        \end{center}
-
         \subsection{Gráfico de tendencia}
             \indent En este apartado, usando los datos obtenidos de las mediciones, se realizará un gráfico de la radiación térmica en función de la temperatura de cada material.
 
-            \begin{tikzpicture}[remember picture, overlay]
-                \node at (3cm, -3.5cm) {
-                    \begin{minipage}[c]{6cm}
-                    \includegraphics[width = 8cm]{./graficoRadiacionTemperatura.png}
-            \end{minipage}};
-            \end{tikzpicture}
+            \begin{figure}[h!]
+				\centering
+				\includegraphics[width =9cm]{./graficoRadiacionTemperatura.png}
+			\end{figure}
 
+		\newpage
+		\thispagestyle{fancy}
+		
+		\subsection{Medición radiación a distancia}
+			\indent En este apartado, se tomó al \textbf{aluminio anodizado} para medir la radiación de este a varios centímetros de la placa pegada al \textit{Cubo de Leslie} con el fin de poder estimar la radiación ambiente en el lugar de trabajo. \\
+			\indent La temperatura siempre se mantuvo en ~60 \textdegree C .\\
+			
+		\begin{minipage}[c]{7.5cm}
+			\vspace{5mm}
+			\centering
+			\textit{Aluminio anodizado} 
+			\vspace{2mm}
+		\end{minipage}
+		
+		\begin{tabular}{ c  c  c  c }
+			\toprule
+			N \textdegree & Dist. (cm) & Rad. (mW) & Sensor (mV) \\
+			\midrule
+			1   &   0 & 0,182 &   4   \\
+			2   &   1 & 0,173 &   3,8 \\
+			3   &   2 & 0,159 &   3,5 \\
+			4   &   3 & 0,145 &   3,2 \\
+			5   &   4 & 0,132 &   2,9 \\
+			6   &   5 & 0,114 &   2,5 \\
+			7   &   6 & 0,1   &   2,2 \\
+			8   &   7 & 0,082 &   1,8 \\
+			9   &   8 & 0,068 &   1,5 \\
+			10  &   9 & 0,059 &   1,3 \\
+			11  &  10 & 0,05  &   1,1 \\
+			12  &  11 & 0,041 &   0,9 \\
+			13  &  12 & 0,036 &   0,8 \\
+			14  &  13 & 0,027 &   0,6 \\
+			15  &  14 & 0,027 &   0,6 \\
+			16  &  15 & 0,023 &   0,5 \\
+			17  &  16 & 0,018 &   0,4 \\
+			18  &  17 & 0,014 &   0,3 \\
+			19  &  18 & 0,009 &   0,2 \\
+			20  &  19 & 0,009 &   0,2 \\
+			21  &  20 & 0,009 &   0,2 \\
+			\bottomrule
+		\end{tabular}
+		
+		\begin{itemize}
+			\vspace{5mm}
+			\item \textbf{Gráfico de la caída de radiación}
+			\vspace{-3mm}			
+		\end{itemize}
+	
+        \begin{figure}[h!]
+			\centering
+			\includegraphics[width=9cm]{./graficoRadiacionDistancia.png}
+		\end{figure}
+		
+		\begin{itemize}
+			\vspace{0mm}
+			\item \textbf{Corrección de la radiación}
+			\vspace{-3mm}			
+		\end{itemize}
+		
+		\indent Para cualquier punto (preferentemente donde había más luz) en el laboratorio, el sensor Pasco midió -0,6mV (-0,02727mW) de radiación, el cual se consideró como la radiación ambiental del entorno. \\
+		\indent En base a lo anterior, se puede plantear y calcular la corrección de la radiación detectada por el sensor Pasco apuntando al aluminio anodizado a cierta distancia, sabiendo que: \\
+		
+		\begin{center}
+			$R \propto \frac{1}{d^2}$ \\
+			$R_{CORREGIDA} = R_{MEDIDA} - R_{AMBIENTAL}$ \\
+		\end{center}
+		
+		\newpage
+		\noindent
+		
+		\begin{itemize}
+			\vspace{0mm}
+			\item \textbf{Tabla de correción de radiación}
+			\vspace{-3mm}			
+		\end{itemize}
+		
+		\begin{tabular}{ c  c  c  c }
+			\toprule
+			N \textdegree & Dist. (cm) & $Rad._{MED}$ (mW) & $Rad._{COR}$ (mW) \\
+			\midrule
+			1   &   0   & 0.182   & 0.209 \\
+			2   &   1   & 0.173   & 0.200 \\
+			3   &   2   & 0.159   & 0.186 \\
+			4   &   3   & 0.145   & 0.173 \\
+			5   &   4   & 0.132   & 0.159 \\
+			6   &   5   & 0.114   & 0.141 \\
+			7   &   6   & 0.1  	  & 0.127 \\
+			8   &   7   & 0.082   & 0.109 \\
+			9   &   8   & 0.068   & 0.095 \\
+			10  &   9   & 0.059   & 0.086 \\
+			11  &   10  & 0.05    & 0.077 \\
+			12  &   11  & 0.041   & 0.068 \\
+			13  &   12  & 0.036   & 0.064 \\
+			14  &   13  & 0.027   & 0.055 \\
+			15  &   14  & 0.027   & 0.055 \\
+			16  &   15  & 0.023   & 0.050 \\
+			17  &   16  & 0.018   & 0.045 \\
+			18  &   17  & 0.014   & 0.041 \\
+			19  &   18  & 0.009   & 0.036 \\
+			20  &   19  & 0.009   & 0.036 \\
+			21  &   20  & 0.009   & 0.036 \\
+			\bottomrule
+		\end{tabular}
 
-    \end{multicols}
+	\section{CONCLUSIONES}
+		\indent El trabajo de laboratorio permitió concluir en que la transmisión de la emisión de la radiación se basa en ondas electromagnéticas infrarrojas capaz de ser medidas por una electrónica concreta como el sensor Pasco. \\
+		\indent Además, se puede concluir que la emisión de radiación de un cuerpo depende de la cantidad de calor que este tenga. Experimentos como estos pueden servir para determinar la capacidad disipativa de un material con el fin de hacer refrigeraciones mejores (por tener mayor capacidad de extraer el calor de un sistema haciendo trabajo, para llevarlo al entorno). \\
+		\indent Con respecto a la radiación ambiental, se puede apreciar que tiene un impacto en las mediciones a medida que la distancia a un objeto emisor radioactivo aumenta. Un entorno más "limpio" de radiación puede llevar a conclusiones como: \\
+		
+		\begin{center}
+			$R_{MEDIDA} \approx R_{MEDIDA + DISTANCIA}$
+		\end{center}
+		
 \end{document}
 
 

@@ -45,10 +45,10 @@ plt.plot(tempChapaNegra, radChapaNegraPasco, label='Chapa negra', marker='o')
 
 
 plt.title('')
-plt.xlabel('Temperatura (ºC)', fontsize=20)
-plt.ylabel('Radiación (Watts)', fontsize=20)
-plt.xticks(fontsize=20)
-plt.yticks(fontsize=20)
+plt.xlabel('Temperatura (ºC)', fontsize=30)
+plt.ylabel('Radiación (mW)', fontsize=30)
+plt.xticks(fontsize=30)
+plt.yticks(fontsize=30)
 
 plt.legend()
 plt.show()
