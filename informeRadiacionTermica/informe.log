@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.8.3)  10 OCT 2024 15:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.8.3)  10 OCT 2024 21:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -722,59 +722,59 @@ LaTeX Info: Redefining \% on input line 1.
  [0
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
  []
 
 <./radiaciónTermVSLambda.png, id=16, 792.71156pt x 700.86844pt>
 File: ./radiaciónTermVSLambda.png Graphic file (type png)
 <use ./radiaciónTermVSLambda.png>
-Package pdftex.def Info: ./radiaciónTermVSLambda.png  used on input line 90.
+Package pdftex.def Info: ./radiaciónTermVSLambda.png  used on input line 92.
 (pdftex.def)             Requested size: 156.49014pt x 138.35315pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-14.
+16.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 113--115
+Underfull \hbox (badness 10000) in paragraph at lines 115--117
 
  []
 
 <./leslie.jpeg, id=17, 1039.885pt x 1325.95375pt>
 File: ./leslie.jpeg Graphic file (type jpg)
 <use ./leslie.jpeg>
-Package pdftex.def Info: ./leslie.jpeg  used on input line 118.
+Package pdftex.def Info: ./leslie.jpeg  used on input line 120.
 (pdftex.def)             Requested size: 99.58464pt x 126.97853pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
 <./sensorPasco.png, id=18, 260.47313pt x 403.5075pt>
 File: ./sensorPasco.png Graphic file (type png)
 <use ./sensorPasco.png>
-Package pdftex.def Info: ./sensorPasco.png  used on input line 127.
+Package pdftex.def Info: ./sensorPasco.png  used on input line 129.
 (pdftex.def)             Requested size: 99.58464pt x 154.27031pt.
 <./multimetro.png, id=19, 326.72063pt x 356.83313pt>
 File: ./multimetro.png Graphic file (type png)
 <use ./multimetro.png>
-Package pdftex.def Info: ./multimetro.png  used on input line 135.
+Package pdftex.def Info: ./multimetro.png  used on input line 137.
 (pdftex.def)             Requested size: 99.58464pt x 108.76044pt.
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 12.0pt, for example:
-(fancyhdr)                \setlength{\footskip}{12.0pt}.
+(fancyhdr)                Make it at least 10.44493pt, for example:
+(fancyhdr)                \setlength{\footskip}{10.44493pt}.
 
 [1
 
  <./radiaciónTermVSLambda.png (PNG copy)> <./leslie.jpeg> <./sensorPasco.png (
 PNG copy)> <./multimetro.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
 
  []
 
@@ -782,15 +782,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 144--145
 File: ./graficoRadiacionTemperatura.png Graphic file (type png)
 <use ./graficoRadiacionTemperatura.png>
 Package pdftex.def Info: ./graficoRadiacionTemperatura.png  used on input line 
-297.
+299.
 (pdftex.def)             Requested size: 256.0748pt x 131.90782pt.
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 12.0pt, for example:
-(fancyhdr)                \setlength{\footskip}{12.0pt}.
+(fancyhdr)                Make it at least 10.44493pt, for example:
+(fancyhdr)                \setlength{\footskip}{10.44493pt}.
 
 [2 <./graficoRadiacionTemperatura.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 304--306
+Underfull \hbox (badness 10000) in paragraph at lines 306--308
 
  []
 
@@ -798,22 +798,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 304--306
 File: ./graficoRadiacionDistancia.png Graphic file (type png)
 <use ./graficoRadiacionDistancia.png>
 Package pdftex.def Info: ./graficoRadiacionDistancia.png  used on input line 35
-0.
+2.
 (pdftex.def)             Requested size: 256.0748pt x 131.90782pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 359--361
+Underfull \hbox (badness 10000) in paragraph at lines 361--363
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 405--408
+Underfull \hbox (badness 10000) in paragraph at lines 407--410
 
  []
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 12.0pt, for example:
-(fancyhdr)                \setlength{\footskip}{12.0pt}.
+(fancyhdr)                Make it at least 10.44493pt, for example:
+(fancyhdr)                \setlength{\footskip}{10.44493pt}.
 
 [3 <./graficoRadiacionDistancia.png>] (./informe.aux
 LaTeX Info: Redefining \. on input line 8.
@@ -822,7 +822,7 @@ LaTeX Info: Redefining \% on input line 8.
 Here is how much of TeX's memory you used:
  15365 strings out of 478287
  304050 string characters out of 5849290
- 619901 words of memory out of 5000000
+ 620901 words of memory out of 5000000
  33270 multiletter control sequences out of 15000+600000
  484524 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -837,7 +837,7 @@ fonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr
 8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on informe.pdf (5 pages, 1276803 bytes).
+Output written on informe.pdf (5 pages, 1277899 bytes).
 PDF statistics:
  84 PDF objects out of 1000 (max. 8388607)
  47 compressed objects within 1 object stream
