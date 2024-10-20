@@ -1,8 +1,0 @@
-\babel@toc {spanish}{}\relax 
-\contentsline {section}{\numberline {1}INTRODUCCIÓN}{1}{}%
-\contentsline {subsection}{\numberline {1.1}El principio de dualidad}{1}{}%
-\contentsline {subsection}{\numberline {1.2}Las ondas de \textit {DeBroglie}}{1}{}%
-\contentsline {subsection}{\numberline {1.3}La propagación de ondas}{1}{}%
-\contentsline {section}{\numberline {2}VELOCIDAD DE ONDA DE \textit {DEBROGLIE}}{1}{}%
-\contentsline {section}{\numberline {3}VELOCIDADES DE FASE Y GRUPO}{1}{}%
-\contentsline {section}{\numberline {4}DIGRACCIÓN DE PARTÍCULAS - EXP. DAVISSON \& GERMER}{1}{}%
