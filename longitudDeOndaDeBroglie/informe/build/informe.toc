@@ -1,0 +1,11 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}INTRODUCCIÓN}{1}{}%
+\contentsline {subsection}{\numberline {1.1}El principio de dualidad}{1}{}%
+\contentsline {subsection}{\numberline {1.2}Las ondas de \textit {DeBroglie}}{1}{}%
+\contentsline {section}{\numberline {2}VELOCIDAD DE ONDA DE \textit {DEBROGLIE}}{1}{}%
+\contentsline {section}{\numberline {3}VELOCIDADES DE FASE Y GRUPO}{2}{}%
+\contentsline {section}{\numberline {4}DIFRACCIÓN DE ELECTRONES}{3}{}%
+\contentsline {section}{\numberline {5}LA DUALIDAD ONDA-PARTÍCULA}{4}{}%
+\contentsline {section}{\numberline {6}EL MICROSCOPIO ELECTRÓNICO}{5}{}%
+\contentsline {subsection}{\numberline {6.1}El microscopio electrónico de transmisión}{5}{}%
+\contentsline {subsection}{\numberline {6.2}El microscopio electrónico de barrido}{5}{}%

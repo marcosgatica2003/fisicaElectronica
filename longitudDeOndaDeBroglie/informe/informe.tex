@@ -12,6 +12,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{titlesec}
 \usepackage{enumitem}
+\usepackage{caption}
 
 \author{}
 \date{}
@@ -177,8 +178,170 @@
 \thispagestyle{fancy}
 
 \section{VELOCIDADES DE FASE Y GRUPO}
+    \indent La amplitud de las ondas de De Broglie de un cuerpo en movimiento refleja la probabilidad de que a éste se le encuentre en un punto y en un momento determinados. La representación de la onda de un cuerpo en movimiento corresponde a la de un paquete de ondas, o grupo de ondas, cuyas ondas constitutivas tengan amplitudes de las que dependa la probabilidad de detectar el cuerpo.\\
 
-\section{DIFRACCIÓN \text{-} EXP. DAVISSON \& GERMER}
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width = 5.5cm]{../grupoDeOndas.png}
+    \end{figure}
+
+    \indent Una manera de describir matemáticamente un grupo de ondas es hacerlo en términos de una superposición de ondas individuales, cada una con longitud de onda diferente, que al interferir entre sí dan por resultado variaciones en las amplitudes que definen la forma del grupo. Si todas las velocidades de onda son iguales, la velocidad con que el grupo de ondas se propaga es idéntica a la común. Sin embargo, si la velocidad de onda varía con la longitud de onda, entonces las ondas individuales no avanzan juntas y el grupo de ondas tiene una velocidad diferente de las ondas que lo componen.\\
+
+    \indent No es difícil calcular la velocidad $v$ con que se propaga un grupo de ondas. Supongamos que un grupo de ondas se produce por la combinación de dos ondas de la misma amplitud $A$, pero que difieren en su frecuencia angular y en su constante de propagación $d\omega$  y $dk$, respectivamente. Podemos representar las ondas originales por las fórmulas:\\
+
+    \begin{align}
+        y_1 &= A \cos(\omega t - kx) \tag*{} \\[10pt]
+        y_2 &= A \cos((\omega + d\omega) t - (k + dk)x) \tag*{}
+    \end{align}
+
+    \indent El desplazamiento resultante $y$ en un tiempo $t$ y en una posición $x$ es la suma de $y_1$ y $y_2$.Con ayuda de la identidadades: \\
+
+    \begin{align}
+        \cos(\alpha)+\cos(\beta ) &= 2 \cos(\frac{\alpha+\beta}{2})\cos{(\frac{\alpha-\beta}{2})} \tag*{}
+    \end{align}
+
+    \indent Y de la relación
+
+    \begin{align}
+        \cos(-\theta)=\cos(\theta) \tag*{}
+    \end{align}
+
+    \indent Entonces:
+
+    \begin{align}
+        y &= y_1 + y_2 \tag*{} \\[10pt]
+        y &= 2A \cos(\frac{(2\omega+ d\omega)t-(2k+dk)k}{2})\cos(\frac{d\omega t-dkx}{2}) \tag*{} 
+    \end{align}
+
+    \indent Puesto que \( d\omega \) y \( dk \) son pequeños, comparados con \( \omega \) y \( k \): \\
+
+    \begin{align}
+        2\omega + d\omega &\approx 2\omega \tag*{} \\[10pt]
+        2k + dk &\approx 2k \tag*{}
+    \end{align}
+
+    \indent Entonces:
+
+    \begin{align}
+        y &= 2A \cos(\omega t - kx) \cos(\frac{d\omega t - dkx}{2}) \tag*{}
+    \end{align}
+
+    \indent Esta ecuación representa una onda de frecuencia angular \( \omega \) y constante de propagación \( k \) que tiene superpuesta una modulación de frecuencia angular \( \frac{1}{2}d\omega \) y constante de propagación \( \frac{1}{2}dk \). El sentido de la modulación es producir grupos de ondas sucesivos. La velocidad de fase \( w \) es
+
+    \begin{align}
+        w &= \frac{d\omega}{dk} \tag*{Velocidad de fase}
+    \end{align}
+
+    \indent y La velocidad de grupo de ondas \( u \) es
+
+    \begin{align}
+        u &= \frac{d\omega}{dk} \tag*{Velocidad de grupo}
+    \end{align}
+
+    \indent Si la velocidad de fase es la misma para todas las longitudes de onda, son iguales las velocidades de grupo y de fase. La frecuencia angular de De Broglie correspondientes a un cuerpo en movimiento de masa en reposo $m_0$ y velocidad $v$ son:
+
+    \begin{align}
+        \omega &= 2\pi v \tag*{} \\[10pt]
+        \omega &= \frac{2 \pi mc^2}{h} \tag*{} \\[10pt]
+        \omega &= \frac{2 \pi m_0 c^2}{h\sqrt{1-\frac{v^2}{c^2}}} \tag*{} 
+    \end{align}
+
+    \indent y su constante de propagación de las ondas:
+
+    \begin{align}
+        k &= \frac{2 \pi}{\lambda} \tag*{} \\[10pt]
+        k &= \frac{2 \pi}{\frac{h}{p}} \tag*{} \\[10pt]
+        k &= \frac{2 \pi mv}{h} \tag*{} \\[10pt]
+        k &= \frac{2 \pi m_0 v}{h\sqrt{1-\frac{v^2}{c^2}}} \tag*{}
+    \end{align}
+
+    \indent Por lo tanto, $\omega$ y $k$ son funciones de $v$. La velocidad de fase $w$ es:
+
+    \begin{align}
+        w &= \frac{\omega}{k} \tag*{} \\[10pt]
+        w &= \frac{c^2}{v} \tag*{}
+    \end{align}
+
+    \indent Y como se puede ver en la ultima ecuación, la velocidad de fase de las ondas de De Broglie es mayor que la velocidad del objeto y de la luz.\\
+    \indent La velocidad de grupo $u$ de las ondas de De Broglie del cuerpo es: 
+
+    \begin{align}
+        u &= \frac{d\omega}{dk} \tag*{} \\[10pt]
+        u &= \frac{d\omega/dv}{dk/dv} \tag*{} 
+    \end{align}
+
+    \indent Siendo:
+
+    \begin{align}
+        \frac{d\omega}{dv} &= \frac{2 \pi m_0 v}{h(1-v^2/c^2)^{3/2}} \tag*{} \\[10pt]
+        y\\[10pt]
+        \frac{dk}{dv} &= \frac{2 \pi m_0}{h(1-v^2/c^2)^{3/2}} \tag*{}
+    \end{align}
+
+    \indent Por lo tanto, la velocidad de grupo de las ondas de De Broglie es: $u=v$.\\
+
+    \indent En cpnclusión, la velocidad de fase de las ondas de De Broglie de un cuerpo en movimiento es mayor que la velocidad del cuerpo y de la luz, mientras que la velocidad de grupo es igual a la velocidad del cuerpo.\\
+
+\section{DIFRACCIÓN DE ELECTRONES}
+
+    \indent En 1927, Davisson y Germer confirmarion experimentalmente la hipótesis de De Broglie de que los electrones se comportan como ondas demostrando que los electrones se difractan al ser disoersados en cristales en los cuales la separación entre sus átomos tiene una distancia adecuada.\\
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width = 5.5cm]{../Experimento.png}
+    \end{figure}
+
+    \indent En la figura de arriba se muestra un esquema del experimento de Davisson y Germer. En el cual se estudia la disepersión de electrones en sólidos. La energía de los electornes en el rayo, el ángulo de incidencia sobre el blanco y la posición del detector pueden variar.La física clásica predice que los electrones se dispersarán en todas las direcciones sin importar el ángulo de incidencia y la energía de los electrones. Davisson y Germer comprobaron estas prediccones con un bloque de níquel como blanco.\\
+
+    \indent Durante el experimento tuvieron un accidente que dejo entrar aire en el aparato, resultando en la oxidación de la superficie del metal. Para reducir a níquel puro el óxido formado, el blanco se calentó en un horno a altas temperaturas. Luego se volvió a colocar en el aparato y siguieron las mediciones. Los nuevos resultados fueron muy diferentes a los obtenidos antes del accidente, en lugar de una variación continua de la intensidad de los electrones dispersados según el ángulo de incidencia, se observaron máximos y mínimos cuya posición dependía de la energía de los electrones. En la siguiente figura se representan gráficas polares típicas de la intensidad electrónica después del accidente; el método de representación es tal que la intensidad, para cualquier ángulo, es proporcional a la distancia de la curva con ese ángulo, al punto de dispersión.
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width = 5.5cm]{../grafica.png}
+    \end{figure}
+
+    \indent La hipótesis de De Broglie sugería la interpretación de que las ondas de electrones las difractaba el blanco, en forma similar a como los rayos X son difractados por planos de átomos en un cristal. Esta interpretación se confirmó cuando se aclaró que el calentamiento del bloque producia un solo monocristal a partir de los muchos cristales pequeños que lo componían, quedando todos los átomos dispuestos en una red regular.
+
+    \indent Veamos si se puede verificar que las ondas de De Broglie son la causa del hallazgo de Davisson y Germer. En un cierto experimento, se dirigió un haz de electrones de 54 $eV$ perpendicularmente al blanco de níquel y se observó un máximo en la distribución de electrones en cualquier dirección que formara un ángulo de $50°$ con el haz original. Los ángulos de incidencia y de dispersión relativos a la familia de planos de Bragg, que se muestra en la Fig. 3-7, serán ambos de $65°$. La distancia entre planos de esta familia, que se puede medir por difracción de rayos $X$, es 0.91 \AA. La ecuación de Bragg para los máximos en el modelo de difracción es:
+
+    \begin{align}
+        n\lambda &= 2d \sin \theta \tag*{}
+    \end{align}
+
+    \indent Dando los valores de $n=1$, $d=0.91$ \AA, $\theta=65°$, la longitud de onda de De Broglie $\lambda$ queda:
+
+    \begin{align}
+        n\lambda &= 2 \cdot 0.91 \text{\AA} \cdot \sin 65^\circ \tag*{} \\[10pt]
+        n\lambda &= 1.65 \text{\AA} \tag*{}
+    \end{align}
+
+    \indent Con la formula de De Broglie: $\lambda=\frac{h}{mv}$. se puede calcular la longitud de onda de los electrones. La energía cinética del elctrón de 54 $eV$ es pequeña comparada con su energía en reposo $m_0c^2$
+    de $5,1.10^5 eV$, asi q no pueden usarse las formulas relativistas. Entonces:
+
+    \begin{align}
+        K=\frac{mv^2}{2} \tag*{} \\[10pt]
+    \end{align}
+
+    \indent el momentum del elctrón $mv$ es:
+
+    \begin{align}
+        mv &=\sqrt{2mK} \tag*{} \\[10pt]
+        mv &=\sqrt{2 \cdot 9.1 \cdot 10^{-31} \, \text{kg} \cdot 54 \, \text{eV} \cdot 1.6 \cdot 10^{-19} \, \text{J/eV}} \tag*{} \\[10pt]
+        mv &= 40 \cdot 10^{-24} \, \text{kg} \cdot \text{m/s} \tag*{}
+    \end{align}
+
+    \indent La longitud de onda del electrón es:
+
+    \begin{align}
+        \lambda &= \frac{h}{mv} \tag*{} \\[10pt]
+        \lambda &= \frac{6.63 \cdot 10^{-34} \text{J-s}}{4 \cdot 10^{-24} \text{kg} \cdot \text{m/s}} \tag*{} \\[10pt]
+        \lambda &= 1.66 \text{Å} \tag*{}
+    \end{align}
+
+    \indent que concuerda con la longitud de onda observada. El experimento de Davisson y Germer nos proporciona así una comprobación directa de la hipótesis de De Broglie sobre la naturaleza ondulatoria de los cuerpos en movimiento.\\
+    \indent El análisis del experimento de Davisson-Germer no es tan sencillo como en el desarrollo anterior, ya que la energía de un electrón aumenta cuando penetra en un cristal, por lo que la velocidad del electrón es mayor en el interior del cristal, por lo que la longitud de onda de De Broglie es más corta que fuera del cristal. Además, surge una complicación adicional debido a interferencias entre las ondas difractadas por las diferentes familias de planos de Bragg, que restringen la aparición de máximos para ciertas combinaciones de la energía del electrón y del ángulo de incidencia.\\
+
+    \indent Como en el caso de las ondas electromagnéticas, los aspectos ondulatorios y corpusculares de los cuerpos en movimiento nunca se pueden observar simultáneamente, de manera que no podemos determinar cuál es la descripción "correcta". Por lo que podemos decir que en algunos casos un cuerpo en movimiento muestra propiedades ondulatorias y en otros presenta propiedades corpusculares. El determinar qué conjunto de propiedades es más evidente depende de la relación entre la longitud de onda de De Broglie y las dimensiones del cuerpo que se considera: la longitud de onda de $1.66$ \AA de un electrón de 54 eV es del mismo orden de magnitud que el espaciamiento de la red de un cristal de níquel, pero la longitud de onda de un automóvil que se desplaza a 90 km/h es aproximadamente $1.5 \times 10^{-38}$ m, que es demasiado pequeña para manifestarse.
 
 \section{LA DUALIDAD ONDA-PARTÍCULA}
 
@@ -226,8 +389,40 @@
     \indent El experimento ilustra que la naturaleza cuántica de la luz y otras partículas depende de cómo interactuamos con el sistema. Si medimos el fotón como una partícula, obtenemos información sobre su trayectoria pero perdemos el patrón de interferencia ondulatorio. Por otro lado, si no hacemos ninguna medición que interrumpa el sistema, el fotón parece interferir consigo mismo, comportándose como una onda.
 
 
-\section{MICROSCOPIO ELECTRONICO}
+\section{EL MICROSCOPIO ELECTRÓNICO}
 
+    \indent El microscopio electrónico es un ejemplo de las propiedades ondulatorias y corpusculares de los electrones, ya que se puede usar un haz de electrones para formar una imagen de un objeto casi en la misma forma que un rayo de luz. Como la luz se puede desviar haciendo que Los rayos de luz que divergen de un punto en un objeto converjan con una lente convergente o un espejo cóncavo, los electrones que divergen de una región pequeña se pueden hacer converger con campos eléctricos y/o magnéticos.\\
+    \indent \textbf{¿Por qué un microscopio electrónico es superior a un microscopio óptico?}\\
+    \indent Sin importar la calidad de la fabricacion de las lentes para un microscopio óptico, la longitud de onda de la luz visible limita la resolución del microscopio. En cambio, la longitud de onda de los electrones en un microscopio electrónico es mucho más pequeña que la de la luz visible, lo que permite una resolución mucho mayor y que el máximo de aumento posible sea miles de veces mayor.\\
+    \subsection{El microscopio electrónico de transmisión}
+
+    \indent En la mayoría de los microscopios electrónicos usan campos magnéticos, y no campos eléctricos, como "lentes" para enfocar el haz. En los microscopios electrónicos de transmisión se usan tres de esas lentes en un arreglo en forma de microscopio compuesto, como se ve en la imagen. Los electrones son emitidos por un cátodo caliente y acelerados por una diferencia de potencial de 10 a 100kV los cuales pasan por una lente condensadora y se conforman en un rayo paralelo. Luego la lente objetivo forma una imagen intermedia de este objeto, y la lente de proyección produce una imagen real final del objeto en una pantalla fluorescente o en una placa fotográfica. Este procedimiento se debe realizar en el vacío. En estos microscopios la muestra a examinar es muy delgada, normalmente de 10 a 100 nm de espesor, por lo que los electrones no se desaceleran en forma apreciable al atravesarlo.\\
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width = 6.5cm]{../microscopio.png}
+    \end{figure}
+\subsection{El microscopio electrónico de barrido}
+
+    \indent En el microscopio electrónico de barrido, el haz de electrones se enfoca formando una línea muy fina que barre el espécimen, por lo que los electrones salen despedidos y son reunidos por un ánodo recolector positivo mantenido un potencial de algunos cientos de volts. La corriente en el ánodo recolector se amplifica y usa para modular el haz de electrones en un tubo de rayos catódicos, que es barrido en sincronización con el haz en el microscopio. Así, el tubo de rayos catódicos traza una imagen muy aumentada del espécimen.\\
+
+    \indent Algunas ventajas es que el espécimen puede ser grueso, ya que el haz no necesita atravesarlo, y la producción de electrones despedidos depende del ángulo de incidencia del haz, lo que permite que las imagenes sean tridimensionales.\\
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width = 6.5cm]{../microbarrido.png}
+    \end{figure}
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width = 5cm]{../microtrans.png}
+        \captionsetup{labelformat=empty}
+        \caption{Imagen de un microscopio electrónico de transmisión.}
+
+    \end{figure}
+    \begin{figure}
+        \centering
+        \captionsetup{labelformat=empty}
+        \includegraphics[width = 5cm]{../barrido.png}
+        \caption*{Imagen de un microscopio electrónico de barrido.}
+    \end{figure}
 \end{document}
-
-
