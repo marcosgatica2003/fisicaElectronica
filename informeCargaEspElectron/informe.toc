@@ -1,0 +1,3 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}INTRODUCCIÓN}{1}{}%
+\contentsline {subsection}{\numberline {1.1}Fundamentos teóricos}{1}{}%
