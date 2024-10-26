@@ -1,9 +1,0 @@
-\babel@toc {spanish}{}\relax 
-\contentsline {section}{\numberline {1}INTRODUCCIÓN}{1}{}%
-\contentsline {subsection}{\numberline {1.1}Electroscopio de Wulf}{1}{}%
-\contentsline {section}{\numberline {2}PRIMERA EXPERIENCIA}{1}{}%
-\contentsline {subsection}{\numberline {2.1}Energía como función de la intensidad de la luz}{1}{}%
-\contentsline {subsection}{\numberline {2.2}Conclusiones:}{2}{}%
-\contentsline {section}{\numberline {3}SEGUNDA EXPERIENCIA}{2}{}%
-\contentsline {subsection}{\numberline {3.1}Constante de Planck}{2}{}%
-\contentsline {section}{\numberline {4}CONCLUSIONES:}{3}{}%
