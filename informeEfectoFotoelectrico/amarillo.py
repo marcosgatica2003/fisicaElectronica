@@ -18,10 +18,14 @@ plt.plot(df['Intensidad'], df['Energía'], marker='o')
 plt.title('Energía $V_{0}$ en función de la Intensidad')
 plt.xlabel('Intensidad %')
 plt.ylabel('Energía $V_{0}$ (mV)')
-plt.grid(True)
+plt.grid(False) # Desactivar la cuadrícula
 
 # Invertir el eje x
 plt.gca().invert_xaxis()
+
+# Ajustar el tamaño de las etiquetas de los ejes
+plt.xticks(fontsize=10)
+plt.yticks(fontsize=10)
 
 # Mostrar el gráfico
 plt.show()

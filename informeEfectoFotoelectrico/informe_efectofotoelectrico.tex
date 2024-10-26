@@ -25,8 +25,8 @@
     \pgftransformshift{\pgfpoint{0cm}{0cm}}
     \draw [line width=2pt](1cm,-1cm) -- (1cm,-27.7cm) -- (14cm, -27.7cm) -- (14cm, -1cm) -- (1cm, -1cm);
     \draw[line width=2pt] (15cm, -27.7cm) -- (19cm,-27.7cm) -- (19cm, -1cm) -- (15cm, -1cm) --  (15cm, -27.7cm);
-    \node [line width=2pt] at (17cm, -3.5cm) {\includegraphics[width=3cm]{/home/valentino/Documents/Facultad/Fisica_Electrónica/fisicaElectronica/informeEfectoFotoelectrico/imagenes/utn.png}};
-		\node [line width=2pt] at (7.5cm, -7.5cm) {\includegraphics[width=6cm]{/home/valentino/Documents/Facultad/Fisica_Electrónica/fisicaElectronica/informeEfectoFotoelectrico/imagenes/LGH_PhotoelectricEffect.es_ES.x512.png}};
+    \node [line width=2pt] at (17cm, -3.5cm) {\includegraphics[width=3cm]{/home/valentino/Documents/Facultad/Fisica_Electrónica/fisicaElectronica/imagenes/utn.png}};
+		\node [line width=2pt] at (7.5cm, -7.5cm) {\includegraphics[width=6cm]{/home/valentino/Documents/Facultad/Fisica_Electrónica/fisicaElectronica/imagenes/LGH_PhotoelectricEffect.es_ES.x512.png}};
     \node at (17cm, -7cm) {\scalebox{5}{\textbf{U}}};
     \node at (17cm, -9cm) {\scalebox{5}{\textbf{T}}};
     \node at (17cm, -11cm) {\scalebox{5}{\textbf{N}}};
@@ -50,10 +50,10 @@
 \renewcommand{\normalsize}{\fontsize{12}{18}\selectfont}
 \newgeometry{margin=1cm}
 \fancyhf{}
-\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\headrulewidth}{0pt} 
 \renewcommand{\footrulewidth}{0pt}
 \fancyfoot[R]{\textit{Rao V. - Perea I. - Parfait M. - Filsinger G. - Coronel A. - Gatica M.} pag. \thepage}
-\setlength{\footskip}{12pt}
+\setlength{\footskip}{20pt} % explain this line: 
 
 \newpage
 \thispagestyle{empty}
@@ -79,7 +79,7 @@
 
         \begin{figure}[h]
           \centering
-          \includegraphics[width=4.5cm]{/home/valentino/Documents/Facultad/Fisica_Electrónica/fisicaElectronica/informeEfectoFotoelectrico/imagenes/electroscopio.jpg}
+          \includegraphics[width=4.5cm]{/home/valentino/Documents/Facultad/Fisica_Electrónica/fisicaElectronica/imagenes/electroscopio.jpg}
           \caption{Electroscopio de Wulf}
         \end{figure}
 
@@ -88,25 +88,25 @@
         \indent En la experiencia realizada medimos como la energía potencial de la luz es función de la intensidad de la luz. Para ello, se utilizó una fuente luminosa de vapor de mercurio haciendo que impacte en un foto diodo, el cual tenia dos filtro, uno de color amarillo/verde y uno el cual dejaba pasar solo una cierta cantidad de luz.A continuacion las imagenes de los objetivos utilizados.
         \vspace{0mm}
 
-        \begin{figure}[h]
-                \centering
-                \includegraphics[width=4.5cm]{/home/valentino/Documents/Facultad/Fisica_Electrónica/fisicaElectronica/informeEfectoFotoelectrico/imagenes/filtro1.jpg}
-                \caption{Filtro 1}
-        \end{figure}
+          \begin{figure}[h]
+            \centering
+            \includegraphics[trim={0 30cm 0 30cm},clip,width=4.5cm]{/home/valentino/Documents/Facultad/Fisica_Electrónica/fisicaElectronica/imagenes/filtro1.jpg}
+            \caption{Filtro 1}
+          \end{figure}
 
-        \begin{figure}[h]
-                \centering
-                \includegraphics[width=4.5cm]{/home/valentino/Documents/Facultad/Fisica_Electrónica/fisicaElectronica/informeEfectoFotoelectrico/imagenes/filtro2.jpg}
-                \caption{Filtro 2}
+          \begin{figure}[h]       
+            \centering
+              \includegraphics[trim={0 30cm 0 30cm},clip,width=4.5cm]{/home/valentino/Documents/Facultad/Fisica_Electrónica/fisicaElectronica/imagenes/filtro2.jpg}
+              \caption{Filtro 2}
         \end{figure}
           
         \begin{figure}[h]
                 \centering
-                \includegraphics[width=4.5cm]{/home/valentino/Documents/Facultad/Fisica_Electrónica/fisicaElectronica/informeEfectoFotoelectrico/imagenes/filtro3.jpg}
+                \includegraphics[width=4.5cm]{/home/valentino/Documents/Facultad/Fisica_Electrónica/fisicaElectronica/imagenes/filtro3.jpg}
                 \caption{Filtro 3}
         \end{figure}
-        
-        \paragraph{}
+        \vspace{5mm}
+
         
         \indent Luego de realizar la experiencia, se obtuvieron los siguientes resultados:
         \vspace{0mm}
@@ -155,20 +155,24 @@
 
         \begin{figure}[h]
           \centering
-          \includegraphics[width=6.7cm]{/home/valentino/Documents/Facultad/Fisica_Electrónica/fisicaElectronica/informeEfectoFotoelectrico/imagenes/amarillo_energia_intensidad.png}
+          \includegraphics[width=6.7cm]{/home/valentino/Documents/Facultad/Fisica_Electrónica/fisicaElectronica/imagenes/amarillo_energia_intensidad.png}
           \caption{\small Energía como función de la intensidad de la luz}
         \end{figure}
 
         \begin{figure}[h]
           \centering
-          \includegraphics[width=6.7cm]{/home/valentino/Documents/Facultad/Fisica_Electrónica/fisicaElectronica/informeEfectoFotoelectrico/imagenes/verde_energia_intensidad.png}
+          \includegraphics[width=6.7cm]{/home/valentino/Documents/Facultad/Fisica_Electrónica/fisicaElectronica/imagenes/verde_energia_intensidad.png}
           \caption{\small Energía como función de la intensidad de la luz}
         \end{figure}
+        
         \newpage
+        \noindent
+        \thispagestyle{fancy}
+        
         
         \subsection{Conclusiones:}
-        \indent Como se puede observar en los gráficos, la energía potencial de corte $V_{0}$ es función de la intensidad de la luz. A medida que la intensidad de la luz disminuye, la energía potencial de corte $V_{0}$ también disminuye.
-        \indent En el caso del color amarillo, la energía potencial de corte $V_{0}$ disminuye de 234,3 mV a 150 mV a medida que la intensidad de la luz disminuye de 100$\%$ a 20$\%$. En el caso del color verde, la energía potencial de corte $V_{0}$ disminuye de 302,5 mV a 198,5 mV a medida que la intensidad de la luz disminuye de 100$\%$ a 20$\%$.
+        \indent Como se puede observar en los gráficos, la energía potencial de corte $V_{0}$ es función de la intensidad de la luz. A medida que la intensidad de la luz disminuye, la energía potencial de corte $V_{0}$ también disminuye.\\
+        \indent En el caso del color amarillo, la energía potencial de corte $V_{0}$ disminuye de 234,3 mV a 150 mV a medida que la intensidad de la luz disminuye de 100$\%$ a 20$\%$. En el caso del color verde, la energía potencial de corte $V_{0}$ disminuye de 302,5 mV a 198,5 mV a medida que la intensidad de la luz disminuye de 100$\%$ a 20$\%$.\\
         \indent En conclusión, la energía potencial de corte $V_{0}$ es función de la intensidad de la luz. A medida que la intensidad de la luz disminuye, la energía potencial de corte $V_{0}$ también disminuye.\\
 
     \section{SEGUNDA EXPERIENCIA}
@@ -178,7 +182,7 @@
 
       \begin{figure}[h]
         \centering
-        \includegraphics[width=6cm]{/home/valentino/Documents/Facultad/Fisica_Electrónica/fisicaElectronica/informeEfectoFotoelectrico/imagenes/dispositivo_2daexperiencia.jpg}
+        \includegraphics[width=6cm]{/home/valentino/Documents/Facultad/Fisica_Electrónica/fisicaElectronica/imagenes/dispositivo_2daexperiencia.jpg}
         \caption{Fotodiodo}
       \end{figure}
 
@@ -227,13 +231,13 @@
 
       \begin{figure}[h]
         \centering
-        \includegraphics[width=6.7cm]{/home/valentino/Documents/Facultad/Fisica_Electrónica/fisicaElectronica/informeEfectoFotoelectrico/imagenes/1er_orden.png}
+        \includegraphics[width=6.7cm]{/home/valentino/Documents/Facultad/Fisica_Electrónica/fisicaElectronica/imagenes/1er_orden.png}
         \caption{\small 1er orden del espectro}
       \end{figure} 
 
       \begin{figure}[ht]
         \centering
-        \includegraphics[width=6.5cm]{/home/valentino/Documents/Facultad/Fisica_Electrónica/fisicaElectronica/informeEfectoFotoelectrico/imagenes/2do_orden.png}
+        \includegraphics[width=6.5cm]{/home/valentino/Documents/Facultad/Fisica_Electrónica/fisicaElectronica/imagenes/2do_orden.png}
         \caption{\small 2do orden del espectro}
       \end{figure}
       \vspace{5mm}
@@ -261,15 +265,12 @@
 
       \begin{figure}[h]
         \centering
-        \includegraphics[width=6.5cm]{/home/valentino/Documents/Facultad/Fisica_Electrónica/fisicaElectronica/informeEfectoFotoelectrico/imagenes/promedio1ery2do_orden.png}
+        \includegraphics[width=6.5cm]{/home/valentino/Documents/Facultad/Fisica_Electrónica/fisicaElectronica/imagenes/promedio1ery2do_orden.png}
         \caption{\small Promedio de 1er y 2do orden del espectro}
       \end{figure}
       \vspace{5mm}
 
       \indent La pendiente de la recta tiene un valor de $3,8 \times 10^{-15}$ Hz.
-      \vspace{5mm}
-
-      \indent El promedio para todas las frecuencias $f$ y todos los potenciales de corte $V_{0}$ de 1er orden es:
       \vspace{5mm}
 
       \begin{minipage}[c]{7.5cm}
@@ -286,10 +287,10 @@
           & 6,636 & 964 \\
         \bottomrule
       \end{tabular}
-      \vspace{5mm}
-
-      \indent El promedio para todas las frecuencias $f$ y todos los potenciales de corte $V_{0}$ de 2do orden es:
-      \vspace{5mm}
+      
+      \newpage
+      \noindent
+      \thispagestyle{fancy}
 
       \begin{minipage}[c]{7.5cm}
         \vspace{5mm}
@@ -338,7 +339,7 @@
       \indent Segun la ecuación (2) $V_{0}$ es función de $f$, obteniendo una recta. Si tomamos una ecuación lineal representada por la fórmula $y = mx + b$, donde $y$ es $V_{0}$, $x$ es $f$, $b$ es la ordenada al origen, en este caso, $W$ y  la pendiente de la recta $m$ es $\frac{h}{e}$.\\
       \indent Donde $W$ es la energía cinética de los electrones, $h$ es la constante de Planck, $f$ es la frecuencia de la luz y $V_{0}$ es la energía potencial de corte. Segun la ecuación(1), se puede calcular la energía cinética de los electrones, para 1er y 2do orden del espectro, sacando el promedio de los valores obtenidos.\\
       \indent En el caso del 1er orden del espectro, el promedio de las frecuencias es de $6,636 \times 10^{14}$ Hz y el promedio de las energías potenciales de corte $V_{0}$ es de 964 mV. Sustituyendo estos valores en la ecuación (1), se obtiene que la energia cinetíca de los electrones es $W = 3,2 \times 10^{-19}$J.En el caso del 2do orden del espectro, el promedio de las frecuencias es de $6,503 \times 10^{14}$ Hz y el promedio de las energías potenciales de corte $V_{0}$ es de 827,4 mV. Sustituyendo estos valores en la ecuación (1), se obtiene que la energia cinetíca de los electrones es $W = 3,2 \times 10^{-19}$J.\\
-      \indent A partir de los resultados obtenidos, se puede calcular el promedio de $W$, el cual es de $3,2 \times 10^{-19}$J. El promedio de las frecuencias $f$ es de $6,569 \times 10^{14}$ Hz y el promedio de las energías potenciales de corte $V_{0}$ es de 895,7 mV. Sustituyendo estos valores en la ecuación (1), se obtiene que la constante de Planck $h$ es de $6,1 \times 10^{-34}$J/s. Este mismo resultado tambien se puede observa en el gráfico (10), ya que la pendiente de la recta es $\frac{h}{e}$, donde $e$ es la carga del electrón, la cual es de $1,6 \times 10^{-19}$C. En nuestro grafico la pendiente tuvo un valor de $3,8 \times 10^{-15} Hz$, si multiplicamos este valor por la carga del electrón, obtenemos el valor de la constante de Planck $h$, el cual es de $6,1 \times 10^{-34}$J/s.\\
+      \indent A partir de los resultados obtenidos, se puede calcular el promedio de $W$, el cual es de $3,2 \times 10^{-19}$J. El promedio de las frecuencias $f$ es de $6,569 \times 10^{14}$ Hz y el promedio de las energías potenciales de corte $V_{0}$ es de 895,7 mV. Sustituyendo estos valores en la ecuación (1), se obtiene que la constante de Planck $h$ es de $6,1 \times 10^{-34}$J/s. Este mismo resultado tambien se puede observa en el gráfico (10), ya que la pendiente de la recta es $\frac{h}{e}$, donde $e$ es la carga del electrón, la cual es de $1,6 \times 10^{-19}$C. En nuestro grafico la pendiente tuvo un valor de $3,8 \times 10^{-15}$Hz, si multiplicamos este valor por la carga del electrón, obtenemos el valor de la constante de Planck $h$, el cual es de $6,1 \times 10^{-34}$J/s.\\
       \vspace{5mm}
       
     \section{CONCLUSIONES:}

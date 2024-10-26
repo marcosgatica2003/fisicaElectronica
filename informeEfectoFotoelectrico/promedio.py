@@ -31,8 +31,12 @@ plt.plot(x_1st, trendline_1st, color='red', label='Recta de tendencia')
 plt.title('Primer Orden')
 plt.xlabel('Frecuencia ($\\times 10^{14}$ Hz)')
 plt.ylabel('Energía $V_{0}$ (mV)')
-plt.grid(True)
+plt.grid(False)  # Desactivar la cuadrícula
 plt.legend()
+
+# Ajustar el tamaño de las etiquetas de los ejes
+plt.xticks(fontsize=10)
+plt.yticks(fontsize=10)
 
 # Mostrar el gráfico
 plt.tight_layout()
