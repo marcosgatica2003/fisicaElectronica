@@ -25,8 +25,8 @@
     \pgftransformshift{\pgfpoint{0cm}{0cm}}
     \draw [line width=2pt](1cm,-1cm) -- (1cm,-27.7cm) -- (14cm, -27.7cm) -- (14cm, -1cm) -- (1cm, -1cm);
     \draw[line width=2pt] (15cm, -27.7cm) -- (19cm,-27.7cm) -- (19cm, -1cm) -- (15cm, -1cm) --  (15cm, -27.7cm);
-    \node [line width=2pt] at (17cm, -3.5cm) {\includegraphics[width=3cm]{./utn.png}};
-    \node [line width=2pt] at (7.5cm, -7.5cm) {\includegraphics[width=6cm]{./imagenCaratula.png}};
+    \node [line width=2pt] at (17cm, -3.5cm) {\includegraphics[width=3cm]{../imagenes/utn.png}};
+    \node [line width=2pt] at (7.5cm, -7.5cm) {\includegraphics[width=6cm]{../imagenes/imagenCaratula.png}};
     \node at (17cm, -7cm) {\scalebox{5}{\textbf{U}}};
     \node at (17cm, -9cm) {\scalebox{5}{\textbf{T}}};
     \node at (17cm, -11cm) {\scalebox{5}{\textbf{N}}};
@@ -35,21 +35,45 @@
     \node at (17cm, -18cm) {\scalebox{5}{\textbf{C}}};
     \node at (7.5cm, -12cm) {\scalebox{2.5}{\textbf{RADIACIÓN TÉRMICA}}};
 
-    \node at (7cm, -24cm) {\begin{minipage}[c]{12cm}
-        \begin{itemize}
-            \raggedright
-            \vspace{1.5cm}
-            \item \fontsize{12}{12}\selectfont \textbf{Autores:} \fontsize{11}{12}\selectfont Valentino Rao (402308) - Ignacio Ismael Perea (406265) \\ Manuel Leon Parfait (406599) - Gonzalo Filsinger (400460) \\ Agustín Coronel (402010) -  Marcos Raúl Gatica (402006) \\
-            % \fontsize{14}{14}\selectfont \textbf{Autor:} Valentino Rao. \\
-            % \fontsize{14}{14}\selectfont \textbf{Autor:} Ignacio Ismael Perea. \\
-            % \fontsize{14}{14}\selectfont \textbf{Autor:} Manuel Leon Parfait. \\
-            % \fontsize{14}{14}\selectfont \textbf{Autor:} Gonzalo Filsinger. \\
-            % \fontsize{14}{14}\selectfont \textbf{Autor:} Agustín Coronel. \\
-            \item \fontsize{12}{12}\selectfont \textbf{Curso:} 2R1. \\
-            \item \fontsize{12}{12}\selectfont \textbf{Asignatura:} Física Electrónica. \\
-            \item \fontsize{12}{12}\selectfont \textbf{Institución:} Universidad Tecnológica Nacional - Facultad Regional de Córdoba. \\
-        \end{itemize}
-    \end{minipage}};
+    % \node at (7cm, -24cm) {\begin{minipage}[c]{12cm}
+    %     \begin{itemize}
+    %         \raggedright
+    %         \vspace{1.5cm}
+    %         \item \fontsize{12}{12}\selectfont \textbf{Autores:} \fontsize{11}{12}\selectfont Valentino Rao (402308) - Ignacio Ismael Perea (406265) \\ Manuel Leon Parfait (406599) - Gonzalo Filsinger (400460) \\ Agustín Coronel (402010) -  Marcos Raúl Gatica (402006) \\
+    %         % \fontsize{14}{14}\selectfont \textbf{Autor:} Valentino Rao. \\
+    %         % \fontsize{14}{14}\selectfont \textbf{Autor:} Ignacio Ismael Perea. \\
+    %         % \fontsize{14}{14}\selectfont \textbf{Autor:} Manuel Leon Parfait. \\
+    %         % \fontsize{14}{14}\selectfont \textbf{Autor:} Gonzalo Filsinger. \\
+    %         % \fontsize{14}{14}\selectfont \textbf{Autor:} Agustín Coronel. \\
+    %         \item \fontsize{12}{12}\selectfont \textbf{Curso:} 2R1. \\
+    %         \item \fontsize{12}{12}\selectfont \textbf{Asignatura:} Física Electrónica. \\
+    %         \item \fontsize{12}{12}\selectfont \textbf{Institución:} Universidad Tecnológica Nacional - Facultad Regional de Córdoba. \\
+    %     \end{itemize}
+    % \end{minipage}};
+
+    \node at (7.5cm, -23cm) {
+        \begin{minipage}[r]{12cm}
+            \begin{itemize}
+                \setlength{\itemsep}{-1em}
+                \item \fontsize{12}{12}\selectfont \textbf{Autores:} \vspace {1mm} \fontsize{11}{12}\selectfont 
+                    \begin{itemize}
+                        \setlength{\itemsep}{-1em}
+                        \item \hspace{2mm} Valentino Rao - Leg. 402308 \\
+                        \item \hspace{2mm} Ignacio Ismael Perea - Leg. 406265 \\
+                        \item \hspace{2mm} Manuel Leon Parfait - Leg. 406599 \\ 
+                        \item \hspace{2mm} Gonzalo Filsinger - Leg. 400460 \\ 
+                        \item \hspace{2mm} Agustín Coronel - Leg. 402010 \\
+                        \item \hspace{2mm} Marcos Raúl Gatica - Leg. 402006 \\
+                        \item \hspace{2mm} Santiago Pannunzio - Leg. 402350 \\
+                    \end{itemize}
+
+                \item \fontsize{12}{12}\selectfont \textbf{Curso:} 2R1. \\
+                \item \fontsize{12}{12}\selectfont \textbf{Asignatura:} Física electrónica. \\
+                \item \fontsize{12}{12}\selectfont \textbf{Institución:} Universidad Tecnológica Nacional - Facultad Regional de Córdoba \\
+
+            \end{itemize}
+        \end{minipage}};
+
 
 \end{tikzpicture}
 
@@ -57,8 +81,8 @@
 \newgeometry{margin=1cm}
 \fancyhf{}
 \renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
-\fancyfoot[R]{\textit{Rao V. - Parfait M. - Filsinger G. - Perea I. - Coronel A. - Gatica M.} pag. \thepage}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyfoot[R]{\textit{Rao V. - Parfait M. - Filsinger G. - Perea I. - Pannunzio S. - Coronel A. - Gatica M.} [pág. \thepage]}
 % \fancyfoot[L]{\textit{Coronel A. - Leg. 402010 - 2R1 \\ Rao V. - Leg. 402308 - 2R1}}
 % \fancyfoot[C]{\textit{Filsinger G. - Leg. 400460 - 2R1 \\ Gatica M. - Leg. 402006 - 2R1}}
 \setlength{\footskip}{0pt}
@@ -92,7 +116,7 @@
 
 			\begin{figure}[h!]
 				\centering
-				 \includegraphics[width =5.5cm]{./radiaciónTermVSLambda.png}
+				 \includegraphics[width =5.5cm]{../imagenes/radiaciónTermVSLambda.png}
 			\end{figure}
 
         \subsection{Experimento y objetivos}
@@ -120,7 +144,7 @@
 
 			\begin{figure}[h!]
 				\centering
-				\includegraphics[width =3.5cm]{./leslie.jpeg}
+				\includegraphics[width =3.5cm]{../imagenes/leslie.jpeg}
 			\end{figure}
 
             \indent \textit{Nota: debido a un desperfecto en el instrumento, se optó por medir la temperatura de los materiales de otra forma. Naturalmente el dispositivo tiene una salida para leer los mV de la relación anteriormente mencionada.}
@@ -129,7 +153,7 @@
             
             \begin{figure}[h!]
             	\centering
-            	\includegraphics[width =3.5cm]{./sensorPasco.png}
+            	\includegraphics[width =3.5cm]{../imagenes/sensorPasco.png}
             \end{figure}
             	
         \subsection{Multímetros}
@@ -137,7 +161,7 @@
             
             \begin{figure}[h!]
             	\centering
-            	\includegraphics[width =3.5cm]{./multimetro.png}
+            	\includegraphics[width =3.5cm]{../imagenes/multimetro.png}
             \end{figure}
                
             \newpage
@@ -299,7 +323,7 @@
 
             \begin{figure}[h!]
 				\centering
-				\includegraphics[width =9cm]{./graficoRadiacionTemperatura.png}
+				\includegraphics[width =9cm]{../imagenes/graficoRadiacionTemperatura.png}
 			\end{figure}
 
 		\newpage
@@ -352,7 +376,7 @@
 	
         \begin{figure}[h!]
 			\centering
-			\includegraphics[width=9cm]{./graficoRadiacionDistancia.png}
+			\includegraphics[width=9cm]{../imagenes/graficoRadiacionDistancia.png}
 		\end{figure}
 		
 		\begin{itemize}
