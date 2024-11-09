@@ -66,12 +66,12 @@
 \end{tikzpicture}
 
 \renewcommand{\normalsize}{\fontsize{12}{18}\selectfont}
-\newgeometry{margin=2.54cm} %Quiero dejar esto cercano a las normas APA
+\newgeometry{margin=1.75cm} %Quiero dejar esto cercano a las normas APA
 \fancyhf{}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0.4pt}
 \fancyfoot[R]{[Rao V. - Parfait M. - Filsinger G. - Perea I. - Coronel A - Pannunzio S. - Gatica M.] [\textbf{pág. \thepage}]}
-\setlength{\footskip}{1.5cm}
+\setlength{\footskip}{0cm}
 \newpage
 \thispagestyle{empty}
 \text{}
@@ -89,6 +89,71 @@
 \twocolumn
 \flushbottom
 \section{INTRODUCCIÓN}
+
+    \subsection{Función de onda}
+        \indent En la mecánica cuántica, la función de onda $\Psi$ describe el estado de una partícula en un sistema. Por si misma, $\Psi$ no tiene un significado físico directo, sin embargo, sirve para representar la densidad de probabilidad de encontrar una partícula en un lugar y momento dado (magnitud instantánea):
+
+        \begin {center}
+            $|\Psi|^2$
+        \end{center}
+        
+        \indent Para una función de onda compleja, la densidad de probabilidad se calcula como:
+        \begin{center}
+            $|\Psi|^2 = (\Psi^*) (\Psi)$
+        \end{center}
+
+        Siendo $\Psi^*$ el complejo conjugado de $\Psi$. Lo que esta operación asegura que la densidad de probabilidad sea positivo y real (para que físicamente tenga significado).
+
+        \indent La función de onda, $\Psi$, es una función compleja y se expresa:
+    
+        \begin{center}
+            $\Psi = A + Bi$ \\
+            $\Psi^* = A - Bi$ \hspace{5mm} \textit{(El complejo conjugado)} \\
+        \end{center}
+
+        Siendo A y B números reales.
+
+        \indent Por lo tanto, una vez presentadas las funciones, es posible describir la densidad de onda compleja como:
+
+        \begin{center}
+            $|\Psi|^2 = (\Psi^*) (\Psi) = A^2 + B^2$
+        \end{center}
+
+    \subsection{La normalización}
+        \indent Existen ciertas condiciones para que una función de onda represente de manera adecuada el estado de una partícula, siendo una de ellas que la densidad de probabilidad debe ser normalizable. \\
+        \indent Normalizar $|\Psi|^2$ significa que debe ser integrable en todo el espacio y converger en un valor finito. Físicamente se puede interpretar que ese valor representa un lugar determinado en el espacio donde existe la partícula. La normalización es igual a:
+
+        \begin{center}
+            $\int_{- \infty}^{\infty} |\Psi|^2 dV = 1$ 
+        \end{center}
+
+        La ecuación hace referencia a la probabilidad total de encontrar la partícula en algún lugar del espacio equivale a 1. Si la función de onda compleja cumple la integral, cumple la normalización. También es posible multiplicar una constante a la función para cumplir a normalización en caso de no poder.
+
+    \subsection{Funciones de onda ''bien comportadas''}
+        \indent Para que una función de onda $\Psi$ sea válida en un sistema cuántico, debe:
+
+        \begin{itemize} 
+            \item Ser continua y de valor único en cada punto del espacio, ya que la probabilidad de encontrar una partícula en algún lugar específco debe ser un solo valor.
+            \saltoPag
+            \item Sus derivadas parciales, llamese:
+                \begin{center}
+                    $\frac {\partial \Psi}{\partial x}, \frac{\partial \Psi}{\partial y}, \frac{\partial \Psi}{\partial z}$
+                \end{center}
+            deben ser continuas y converger en un solo valor para cada punto en el espacio. Esto permite asegurar que no existan discontinuidades abruptas en la función de onda.
+        \item $\Psi$ debe ser normalizable; tiende a 0 cuando $(x;y;z) \rightarrow \infty$.
+        \end{itemize}
+
+    \subsection{La interpretación probabilística}
+        \indent Una vez aclarado las condiciones de normalización y de ''bien comportada'', la probabilidad de encontrar la partícula en una región específica del espacio puede calcularse integrando $|\Psi|^2$ en dicha región. \\
+        \indent Supongamos que una partícula restringida a moverse en la dirección x, la probabilidad de encontrarla entre las posiciones $x_1$ y $x_2$ puede ser expresada por:
+
+        \begin{center}
+            $P(x_1 < x < x_2) = \int_{x_1}^{x_2} |\Psi|^2 dx $
+        \end{center}
+
+    \subsection{Contexto histórico y conceptual}
+        \indent 
+        
 
 
 \end{document}
