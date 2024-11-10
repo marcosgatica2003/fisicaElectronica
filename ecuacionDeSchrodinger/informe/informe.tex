@@ -10,10 +10,11 @@
 \usepackage{amsmath}
 \usepackage[spanish]{babel}
 \usepackage[utf8]{inputenc}
-\usepackage{titlesec}
+\usepackage[explicit]{titlesec}
 \usepackage{enumitem}
 \usepackage{caption}
 \usepackage{booktabs}
+\usepackage{amsfonts}
 
 \author{}
 \date{}
@@ -21,8 +22,6 @@
 
 \begin{document}
 \thispagestyle{empty}
-
-\newcommand{\saltoPag}{\newpage \noindent \thispagestyle{fancy}}
 
 \begin{tikzpicture}[remember picture, overlay]
     \pgftransformshift{\pgfpoint{0cm}{0cm}}
@@ -76,7 +75,19 @@
 \thispagestyle{empty}
 \text{}
 
-\titleformat{\section} {\fontsize{12}{12}\bfseries}{\thesection.}{0.5em}{\underline}
+\newcommand{\saltoPag}{\newpage \noindent \thispagestyle{fancy}}
+
+\newcommand{\longsection}[2]{%
+    \section[#1]{\parbox{\columnwidth}{#1}}
+}
+
+\titleformat{\section}
+[hang]
+{\fontsize{12}{12}\bfseries}
+{\thesection.}
+{0.5em}
+% {\underline{\parbox[t]{\columnwidth}{#1}}}
+{\underline{#1}}
 
 \newpage
 \newpage
@@ -151,9 +162,214 @@
             $P(x_1 < x < x_2) = \int_{x_1}^{x_2} |\Psi|^2 dx $
         \end{center}
 
-    \subsection{Contexto histórico y conceptual}
-        \indent 
-        
+\section{LA ECUACIÓN DE ONDA CLÁSICA}
+    \indent Una de las bases fundamentales de la mecánica cuántica es la ecuación de Schrödinger, que es análogo a lo que es la segunda ley de Newton en la mecánica clásica. \\
+    \indent Newton describe la evolución de un cuerpo en el espacio y el tiempo, mientras que Schrödinger describe la evolución de una función de onda $\Psi$, la cual contiene información sobre el estado de una partícula.
 
+    \begin{center}
+        \textit{Ec. Onda clásica:} \hspace{1cm} $\frac{\partial ^2 y}{\partial x^2} = \frac{1}{u^2} \frac{\partial ^2 y}{\partial t^2}$
+    \end{center}
 
+    \indent La ecuación de onda clásica deriva de principios como la segunda ley de Newton para ondas mecánicas y las ecuaciones de Maxwell para las ondas electromagnéticas. Su propósito es describir la propagación de una onda $y$ en dirección $x$ a una velocidad $\vec{u}$.
+
+\longsection{ECUACIÓN SCHRÖDINGER: DEPENDIENTE DEL TIEMPO}{ECUACIÓN SCHRÖDINGER:\\DEPENDIENTE DEL TIEMPO}
+
+    \indent La función de onda $\Psi$ sirve como equivalente cuántico de una variable de onda como $y$ en el caso de las ondas clásicas. La diferencia significativa es que $\Psi$ puede ser una cantidad que $\in \mathbb{C}$ y no representa directamente una magnitud observable. Como se ha mencionado en la introducción, permite conocer la probabilidad de encontrar una partícula en un punto con $|\Psi|^2$. \\
+
+    \subsection{Expresión de la función de onda para una partícula libre}
+        \indent Partiendo de un caso ideal de una partícula libre moviéndose en la dirección $+x$, la función de onda se expresa como:
+
+        \begin{center}
+            $\Psi = Ae^{-i \omega (t-x/v)}$
+        \end{center}
+
+        \saltoPag
+
+        Esto describe una onda que se propaga libremente. Al reemplazar $\omega$ y $v$ por sus respectivas relaciones con la energía $E$ y el momento $p$ de la partícula, se obtiene:
+
+        \begin{center}
+            $\Psi = Ae^{-2 \pi i (vt-x \lambda)}$ 
+        \end{center}
+
+        \indent La fórmula funciona cuando la partícula no tiene restricciones, pero si la misma está sujeta a un potencial (como un electrón unido a un átomo por el campo eléctrico de su núcleo), hace falta obtener una ecuación diferencial que describa $\Psi$ para esas circunstancias. \\
+        \indent Si se diferencia la expresión $\Psi$ con respecto a $x$ y a $t$, y se introduce la relación entre la energía total, energía cinética y potencial, se deriva la forma dependiente del tiempo de la ecuación de Schrödinger para una dimensión: \\
+
+        Función de onda de una partícula que se mueve libremente:
+        \begin{center}
+            $\Psi = Ae^{-2 \pi i (vt-x/ \lambda)}$ 
+        \end{center}
+
+        Se reemplaza $\omega$ por $2 \pi v$ y la velocidad $v$ en términos de la longitud de onda $\lambda$, se obtiene:
+
+        \begin{center}
+            $\Psi = Ae^{-2 \pi i (\frac{vt - x}{\lambda})}$
+        \end{center}
+
+        Se sabe que:
+        \begin{itemize}
+            \item La energía total (por Planck) $E$ = $hv$ = $2\pi \hbar v$ 
+            \item $\lambda = \frac{\hbar}{p} = \frac{2 \pi \hbar}{p}$
+        \end{itemize}
+
+        Usando esas relaciones, se puede expresar $\Psi$ como:
+
+        \begin{center}
+            $\Psi = Ae^{-(i/\hbar)(Et - px)}$
+        \end{center}
+
+        El resultado es la expresión que describe una partícula que se mueve libremente en la dirección $x$ con energía $E$ y un momento $p$.
+
+        \subsection{Derivada segunda de $\Psi$ con respecto a x}
+            \indent Se procede a diferenciar $\Psi$ dos veces con respecto a $x$ para obtener una relación entre el momento $p$ y la función de onda:
+
+            \begin {center}
+                $\frac{\partial \Psi}{\partial x} = - \frac{ip}{\hbar} \Psi$
+            \end{center}
+
+            \begin {center}
+                $\frac{\partial ^2 \Psi}{\partial x^2} = - \frac{p^2}{\hbar ^2} \Psi$
+            \end{center}
+
+            Se despeja $p^2 \Psi$: 
+
+            \begin{center}
+                $p^2 \Psi = - \hbar \frac{\partial ^2 \Psi}{\partial x^2}$
+            \end{center}
+
+        \subsection{Derivada de $\Psi$ con respecto a t}
+             \indent Se hace la diferenciación de la función onda $\Psi$ con respecto a $t$:
+            \begin{center}
+                $\frac{\partial \Psi}{\partial t} = - \frac{iE}{\hbar} \Psi$
+            \end{center}
+
+            \saltoPag
+
+            Se multiplica ambos lados por $\hbar$ e introduciendo el operador $i \hbar$ en el primer miembro, se obtiene:
+
+            \begin{center}
+                $i \hbar \frac{\partial \Psi}{\partial t} = E \Psi $
+            \end{center}
+
+        \subsection{Relación entre la energía total $E$ , cinética y potencial $U$}
+            \indent Para una partícula a velocidad menores que $c$, la energía total $E$ se expresa como la suma de la energía potencial cinética y potencial:
+            
+            \begin{center}
+                $E = \frac{p^2}{2m} + U_{(x;t)}$
+            \end{center}
+
+            Si se multiplica por ambos miembros la función de onda $\Psi$ se obtiene:
+
+            \begin{center}
+                $E \Psi = \Psi (\frac{p^2}{2m} + U_{(x;t)})$
+            \end{center}
+            
+            \begin{center}
+            $E \Psi = \frac{p^2 \Psi}{2m} + U_{(x;t)} \Psi$
+            \end{center}
+           
+            Ahora se sustituye los valores obtenidos en los pasos anteriores para $E \Psi$ y $p^2 \Psi $ usando las derivadas de $\Psi$ con respecto a $x$ y $t$:
+
+            \renewcommand{\theenumi}{\roman{enumi}}
+
+            \begin{enumerate}
+                \item De la relación de $E$ con la derivada temporal de $\Psi$, se sustituye $E \Psi$ por $i \hbar \frac{\partial ^2 \Psi}{\partial x^2}$
+                \item De la relación de $p^2$ con la derivada espacial de $\Psi$, se sustituye $p^2 \Psi$ por $- \hbar ^2 \frac{\partial ^2 \Psi}{\partial x^2}$
+            \end{enumerate}
+
+            En resumen, se obtiene: 
+
+            \begin{center}
+                $i \hbar \frac{\partial \Psi}{\partial t} = -\frac{\hbar ^2}{2m} \frac{\partial^2 \Psi}{\partial x^2} + U \Psi$
+            \end{center}
+
+        \subsection{Resultado final: Ecuación de Schrödinger dependiente del tiempo en una dimensión}
+
+            \indent Esta ecuación describe cómo evoluciona la función de onda $\Psi$ de una partícula en función del tiempo bajo la influencia de un potencial $U_{(x;t)}$. Se puede llevar a tres dimensiones $(x;y;z)$ adicionando las energías cinéticas de cada coordenada:
+
+            \begin{center}
+                $i \hbar \frac{\partial \Psi}{\partial t} = -\frac{\hbar ^2}{2m} (\frac{\partial^2 \Psi}{\partial x^2} + \frac{\partial^2 \Psi}{\partial y^2} + \frac{\partial ^2 \Psi}{\partial z^2}) + U \Psi$
+                
+            \end{center}
+
+	\subsection{Ejemplo: electrón confinado en una caja}
+		\begin{enumerate}
+
+			\item \indent \textbf{Planteamiento:} Un electrón se encuentra confinado en una ''caja'' de tamaño $L = 0,1nm$. Se asume que esta caja tiene ''paredes'' impenetrables, lo que significa que fuera de la caja $(x < 0$ y $x > L)$, la función de onda $\Psi_{x}$ es 0, debido a la probabilidad nula de que el electrón exista fuera de este rango. 
+
+			\item \indent \textbf{Aplicación de la ecuación de Schrödinger:} Para una partícula de masa $m$ en una dimensión con energía total $E$, la ecuación de Schrödinger independiente del tiempo es:
+
+				\saltoPag
+
+				\begin{center}
+					$- \frac{\hbar ^2}{2m} \frac{d^2 \Psi_{(x)}}{dx^2} = E \Psi_{(x)}$
+				\end{center}
+
+				Dentro de la ''caja'' (entre $x$ = 0 y $x$ = L), la energía potencial $U$ es cero, por lo que la ecuación se reduce a:
+
+				\begin{center}
+					$\frac{d^2 \Psi_{(x)}}{dx^2} = - \frac{2mE}{\hbar ^2} \Psi_{(x)}$
+				\end{center}
+				
+				Se define $k = \frac{\sqrt{2mE}}{\hbar}$, lo que convierte la ecuación diferencial en:
+
+				\begin{center}
+					$\frac{d^2 \Psi_{(x)}}{dx^2} + k^2 \Psi_{(x)} = 0$
+				\end{center}
+
+			\item \indent \textbf{Solución general de la función de onda:} 
+
+				\begin{center}
+					$\Psi_{(x)} = Asen(kx) + Bcos(kx)$
+				\end{center}
+
+				Donde $A$ y $B$ son constantes de integración determinadas por las condiciones de frontera. \\
+
+			\item \indent \textbf{Condiciones de frontera:} \\
+				Dado que la probabilidad de que el electrón esté fuera de la caja es cero, tenemos que:
+				\begin{itemize}
+					\item En $x$ = 0: $\Psi_{(0)}$ = 0, lo que implica que $B$ = 0
+					\item En $x$ = $L$: $\Psi_{(L)}$ = 0, lo que implica que $Asen(kL)$ = 0
+				\end{itemize}
+
+				Para satisfacer esta última condición, $kL$ debe ser un múltiplo entero de $\pi$:
+
+				\begin{center}
+					$kL = n \pi \rightarrow k = \frac{n \pi}{L}$ \hspace{5mm} para $n = 1,2,3...$
+				\end{center}
+
+			\item \indent \textbf{Energía cuantizada:} \\
+				Sustituyendo $k = \frac{n \pi}{L}$ en la definición de $k$, obtenemos los valores de energía permitidos:
+
+				\begin{center}
+					$E_n = \frac{\hbar ^2 k^2}{2m} = \frac{\hbar ^2}{2m} (\frac{n \pi}{L})^2 = \frac{n^2 \pi^2 \hbar^2}{2mL^2}$
+				\end{center}
+
+				Siendo:
+
+				\begin{itemize}
+					\item $m = 9,1 . 10^{-31} kg$
+					\item $\hbar = \frac {6,63 . 10^{-34} Js}{2 \pi}$
+					\item $L = 10^{-10}m$
+				\end{itemize}
+
+				La expresión final para la energía queda como:
+
+				\begin{center}
+					$E_n = \frac {(n^2)(6.63 . 10^{-34} Js)^2}{(8)(9.1 . 10^{-31 kg}) (10^{-10}m)} \approx 6 . 10^{-18}n^2 J$
+				\end{center}
+
+			\item \indent \textbf{Interpretación de los niveles energéticos:} \\
+				Para $n = 1$, la energía mínima del electrón es $E_1 \approx 6 . 10^{-18} J$, que son aproximadamente $38eV$. Los niveles de energía son: 
+
+				\begin{itemize}
+					\item $E_1 = 38eV$
+					\item $E_2 = 4 . 38eV = 152 eV$
+					\item $E_3 = 9 . 38eV = 342 eV$
+					\item $E_4 = 16 . 38eV = 608 eV$
+				\end{itemize}
+
+				Estos niveles energéticos cuantizados implican que el electrón en la ''caja'' solo puede existir para ciertos estados energéticos discretos, en lugar de tener una energía continua. Esta cuantización es característico en sistemas confinados.
+
+	\end{enumerate}
+		
 \end{document}
