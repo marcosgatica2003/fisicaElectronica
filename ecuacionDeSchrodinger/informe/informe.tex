@@ -304,19 +304,19 @@
 
             \begin{align*}
                 &\psi_I = C \cdot e^{a \cdot x} + D \cdot e^{-a \cdot x} \\ 
-                &\psi_{III} = F \cdot e^{a \cdot x} + G \cdot e^{a \cdot x} \\
+                &\psi_{III} = F \cdot e^{a \cdot x} + G \cdot e^{-a \cdot x} \\
             \end{align*}
 
             \indent Pero las solucines a las ecuación de Schrödinger deben ser finitas para que tengan sentido físico.\\
             \indent $\psi_I$  es la solucion para la región izquierda donde $x < 0$, si en esta region $x \rightarrow -\infty$ entonces $e^{-a \cdot x} \rightarrow \infty$, entonces D = 0.\\
-            \indent Los mismo sucede para $\psi_{III}$, ya que esta es la solución para la región derecha donde $x > L$, si en esta region $x \rightarrow \infty$ entonces $cosh(a \cdot x) \rightarrow \infty$, entonces F = 0, quedando como solución:\\
+            \indent Los mismo sucede para $\psi_{III}$, ya que esta es la solución para la región derecha donde $x > L$, si en esta region $x \rightarrow \infty$ entonces $e^{a \cdot x} \rightarrow \infty$, entonces F = 0, quedando como solución:\\
 
             \begin{equation}
                 \psi_I = C \cdot e^{a \cdot x}
             \end{equation}
 
             \begin{equation}
-                \psi_{III} = F \cdot e^{-a \cdot x} 
+                \psi_{III} = G \cdot e^{-a \cdot x} 
             \end{equation}
 
             \indent Para la región II, donde $0 < x < L$, la función de onda es $\psi_{II}$
