@@ -1,0 +1,5 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}UNIDAD 1}{1}{}%
+\contentsline {subsection}{\numberline {1.1}Leyes básicas: electricidad y magnetismo}{1}{}%
+\contentsline {subsection}{\numberline {1.2}Ecuaciones de Maxwell}{3}{}%
+\contentsline {subsection}{\numberline {1.3}Demostraciones}{3}{}%
