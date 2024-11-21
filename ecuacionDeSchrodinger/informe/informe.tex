@@ -610,33 +610,173 @@
             \indent Para un potencial de pozo finito las condiciones limites eran $\psi(0) = \psi(L) = 0$, lo cual eliminaba al termino coseno, pero en este caso las condiciones son distitan, como la función de onda debe ser continua en $x = 0$ y $x = L$, entonces $\psi_I(0) = \psi_{II}(0)$ y $\psi_{II}(L) = \psi_{III}(L)$, por lo tanto, en $x = 0$: la función de onda $\psi_{II} = C$ y en $x = L$: la función de onda $\psi_{II} = G$
 
     \section{EFECTO TÚNEL}
+        \indent Ahora consideramos la ecuación de Schrödinger para la región I y II, donde la energía potencial $U$ es igual a $0$, ya que la particula esta libre.
+        \begin{align*}
+                &\frac{\partial^2 \psi_I} {\partial x^2} + \frac{2m}{\hbar^2} \cdot E \psi_I = 0 \\
+                &\frac{\partial^2 \psi_{III}} {\partial x^2} + \frac{2m}{\hbar^2} \cdot E \psi_{III} = 0 \\
+            \end{align*}
 
-            \indent Una partícula sin la energía sufuciente para superar una barrera de potencial finita, puede atraversarla con el efecto túnel.\\
+            \indent Las soluciónes generales de estas ecuaciones son:
+             \begin{align*}
+                &\psi_I = A \cdot e^{jk_1 \cdot x} + B \cdot e^{-jk_1 \cdot x} \\
+                &\psi_{III} = F \cdot e^{jk_1 \cdot x} + G \cdot e^{-jk_1 \cdot x} \\
+            \end{align*}
 
-            \saltoPag
+            \indent Donde
 
-            \begin{figure}[h!]
-                \centering
-                \includegraphics[width=7cm]{../../imagenes/efecto_tunel.png}
-                \vspace{-0.5mm}
-                \textbf{$Figura 3$}
-            \end{figure}
+            \begin{align*}
+                &k_1 = \frac{\sqrt{2mE}}{\hbar}= \frac{p}{\hbar}= \frac{2\pi}{\lambda} \\
+            \end{align*}
 
-            \indent En la figura 2, el pozo de potencial tenia una altura $U$ y una anchura $L$, pero la anchura de las regiones I y III es infinita, en este caso del efecto túnel, la región II tiene una anchura finita, en el caso del pozo con potencial finito las particulas efectivamente pasaban hacia las regiones I y III pero se quedaban atrapadas ahí.\\
-            \indent Ahora vamos a imaginar la situación donde una partícula con energía $E < U$ se encuentra en la región I, donde la barrera es de altura $U$, cuando la particula choca con esta barrera tiene una psoibiblidad, pequeña pero no nula, de atravesarla y llegar a la región III, mientras más alta y más ancha sea la barrera, menos probable es que la partícula la atraviese.\\
-            \indent EL efecto túnel es real, este ocurre por ejemplo con las partícuals alfa, donde una partícula cuya energía es de unos pocos MeV, mientras que el núcleo posee una barrera de potencial de unos 25 MeV, para que esto suceda la partícula tiene que chocar con la barrera aproximadamente $10^{38}$ veces o más,otr ejemplo son los diodos de tunel, donde la corriente eléctrica pasa a través de la barrera de potencial, en este caso la barrera es de unos pocos eV y la energía de los electrones es de unos pocos meV.\\
-            \indent Vamos a considerar el caso de un conjunto idéntico, donde su energía es $E < U$, este conjunto incide desde la izquierda con una función de onda $\psi_{+I}$ donde esta representa al conjunto antes de chocar contra la pared, la función $\psi_{-I}$ a la parte del conjunto que se refleja, la función $\psi_{+III}$ represneta a la parte del conjunto que realizó efecto túnel y logró atravesar la barrera, finalmente la función $\psi_{-II}$ representa a la parte del conjunto que está atrapada dentro de la región II,dodne una parte hará el efecto túnel y la otra se reflejará.\\
+            \indent Las soluciones son equivalentes a las obtenidas en el pozo de potencial infinito, pero los de las regiones cambian por la misma logica aplicada en el pozo de potencial infinito.
+              \indent La función de onda entrante es:
+            
+            \begin{align*}
+                &\psi_{I+} = A \cdot e^{jk_1 \cdot x} \\
+            \end{align*}
 
-            \indent La probabilidad de que una partícula atraviese la barrera de potencial es:
+            \indent Y la función de onda reflejada es:
 
+            \begin{align*}
+                &\psi_{I-} = B \cdot e^{-jk_1 \cdot x} \\
+            \end{align*}
+
+            \indent Por lo que la funcion de onda total en la región I es:
+
+            \begin{align*}
+                &\psi_I = \psi_{I+} + \psi_{I-} = A \cdot e^{jk_1 \cdot x} + B \cdot e^{-jk_1 \cdot x} \\
+            \end{align*}
+
+            \indent La función de onda en la región III es solo la saliente de la región II, por lo que:
+
+            \begin{align*}
+                &\psi_{III} = \psi_{III+}=F \cdot e^{jk_1 \cdot x} \\
+            \end{align*}
+
+            \indent La posibilidad de transmisión es la razón del flujo de particulas entrantes y salientes al producirse el efecto tunel. 
+
+   \begin{align*}
+                &T = \frac{S_{III}}{S_{I}} = \frac{\left| \psi_{III+} \right|^{2} \upsilon_{III+}}{\left| \psi_{I+} \right|^{2} \upsilon_{I+}} = \frac{FF^{\ast}\upsilon_{III+}}{AA^{\ast}\upsilon_{I+}}  
+            \end{align*}
+
+            \begin{align*}
+                &S = \left| \psi \right|^{2}\upsilon 
+            \end{align*}
+
+            \indent Donde $S$ es el flujo y $\upsilon$ es la velocidad del grupo.
+
+            \indent Ahora planteamos la ecuación de Schrödinger para la región II, donde $U>E$.
+
+            \begin{align*}
+                &\frac{\partial^2 \psi_{II}} {\partial x^2} + \frac{2m}{\hbar^2} \cdot (E - U) \psi_{II} = 0 \\
+                &\frac{\partial^2 \psi_{II}} {\partial x^2} - \frac{2m}{\hbar^2} \cdot (U - E) \psi_{II} = 0 \\
+            \end{align*}
+
+            \indent Donde la función de onda en la región II es:
+
+              \begin{align*}
+                &\psi_{II} = C \cdot e^{-k_2 \cdot x} + D \cdot e^{k_2 \cdot x}
+            \end{align*}
+
+            \indent Donde
+
+            \begin{align*}
+                &k_2 = \frac{\sqrt{2m(U - E)}}{\hbar}
+            \end{align*}
+
+            \indent Dado que los exponentes son cantidades reales, $\psi_{II}$ no oscila y, por lo tanto, no representa una partícula en movimiento. Sin embargo, la densidad de probabilidad $|\psi_{II}|^2$ no es cero, por lo que existe una probabilidad finita de encontrar una partícula dentro de la barrera. Dicha partícula puede emerger en la región III o regresar a la región I.
+
+            \indent Para calcular la probabilidad de transmisión \( T \), debemos aplicar las condiciones de frontera apropiadas a \( \psi_I \), \( \psi_{II} \) y \( \psi_{III} \). Tanto \( \psi \) como su derivada \( \frac{d\psi}{dx} \) deben ser continuas en todas partes. Estas condiciones significan que las funciones de onda dentro y fuera deben tener el mismo valor y la misma pendiente.
+
+            \indent En $X=0$:
+         \begin{align*}
+                &\psi_I = \psi_{II} \\
+                &\frac{d\psi_I}{dx} = \frac{d\psi_{II}}{dx} \\
+            \end{align*}
+
+            \indent En $X=L$:
+
+            \begin{align*}
+                &\psi_{II} = \psi_{III} \\
+                &\frac{d\psi_{II}}{dx} = \frac{d\psi_{III}}{dx} \\
+            \end{align*}
+
+            \indent Si aplicamos estas condiciones a las funciones de onda en las regiones I, II y III, obtenemos:
+
+            \begin{equation*}
+                Ae^{jk_1 \cdot 0} + Be^{-jk_1 \cdot 0} = Ce^{-k_2 \cdot 0} + De^{k_2 \cdot 0}
+            \end{equation*}
             \begin{equation}
-                T = e^{-2 \cdot a \cdot L \cdot K_2}
+            A + B = C + D
+            \end{equation}
+            \begin{equation}
+                jk_1 \cdot (A - B) = k_2 \cdot (D - C)
+            \end{equation}
+            \begin{equation}
+                Ce^{-k_2 \cdot L} + D \cdot e^{k_2 \cdot L} = Fe^{jk_1\cdot L}
+            \end{equation}
+            \begin{equation}
+                           -k_2 \cdot Ce^{-k_2 \cdot L} + k_2 \cdot D \cdot e^{k_2 \cdot L} = jk_1 \cdot F \cdot e^{jk_1 \cdot L} \\
             \end{equation}
 
-            \indent Donde $K_2$ es:
+            \indent Ahora vamos a resolver el sistema queriando buscar La relación entre A y F, ya que es la relación entre las funciones de onda entrantes y salientes.
 
-            \begin{equation}
-                K_2 = \frac{\sqrt{2m(U - E)}}{\hbar}
-            \end{equation}
+            \begin{equation*}
+                \left( \frac{A}{F} \right) =
+                \left[ \frac{1}{2} + \frac{i}{4} \left( \frac{k_2}{k_1} - \frac{k_1}{k_2} \right) \right] e^{i(k_1 + k_2)L}
+                +...
+            \end{equation*}
+            \begin{equation*}
+                ...+\left[ \frac{1}{2} - \frac{i}{4} \left( \frac{k_2}{k_1} - \frac{k_1}{k_2} \right) \right] e^{i(k_1 - k_2)L}.
+            \end{equation*}
+
+            \indent Supongamos que la barrera de potencial $U$ es muy grande en relación con la energía $E$ de las partículas incidentes. Si este es el caso, entonces se cumple que $k_2 / k_1 > k_1 / k_2$ y:
+
+
+\begin{align*}
+\frac{k_2}{k_1} - \frac{k_1}{k_2} &\approx \frac{k_2}{k_1}.
+\end{align*}
+
+\indent También que la barrera es lo suficientemente ancha como para que $\psi_{II}$ se atenúe considerablemente entre $x = 0$ y $x = L$. Esto implica que $k_2 L \gg 1$, entonces:
+
+\begin{align*}
+e^{k_2 L} &\gg e^{-k_2 L}.
+\end{align*}
+
+\indent Por lo tanto, la Ecuación puede aproximarse como:
+
+\begin{align*}
+\frac{A}{F} &= \left(\frac{1}{2} + \frac{i k_2}{4 k_1}\right)e^{i(k_1 + k_2)L}.
+\end{align*}
+
+\indent El conjugado complejo de $\frac{A}{F}$, que necesitamos para calcular la probabilidad de transmisión $T$:
+
+\begin{align*}
+\left(\frac{A}{F}\right)^* &= \left(\frac{1}{2} - \frac{i k_2}{4 k_1}\right)e^{-i(k_1 + k_2)L}.
+\end{align*}
+
+\indent Al multiplicar $\frac{A}{F}$ y $\left(\frac{A}{F}\right)^*$, obtenemos:
+
+\begin{align*}
+\frac{AA^}{FF^} &= \left(\frac{1}{4} + \frac{k_2^2}{16 k_1^2}\right)e^{2k_2 L}
+\end{align*}
+
+\indent Dado que $v_{III+} = v_{I+}$, $v_{III+}/v_{I+} = 1$, podemos escribir la probabilidad de transmisión como:
+
+\begin{align}
+T &= \frac{FF^* v_{II+}}{AA^* v_{I+}} = \left (\frac{AA^}{FF^} \right)^{-1} = \left [\frac{16}{4 + \left (\frac{k_2}{k_1} \right)^2} \right]e^{-2k_2 L}
+\end{align}
+
+\indent Finalmente, a partir de las definiciones de $k_1$ y $k_2$ (Ecuación 5.86), se puede demostrar que:
+
+\begin{align*}
+\left(\frac{k_2}{k_1}\right)^2 &= \frac{2m(U - E)/\hbar^2}{2mE/\hbar^2} = \frac{U}{E} - 1.
+\end{align*}
+
+\indent Esta fórmula significa que la cantidad entre corchetes varía mucho menos con \(E\) y \(U\) que lo hace el término exponencial. Además, la cantidad entre corchetes siempre tiene un valor del orden de magnitud de 1. Entonces, una aproximación razonable de la probabilidad de transmisión es:
+
+\begin{align}
+T = e^{-2k_2 L}.
+\end{align}
 
 \end{document}
